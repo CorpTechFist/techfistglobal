@@ -1,0 +1,2369 @@
+{
+  "entries": [
+    {
+      "id": "greeting",
+      "topic": "general",
+      "title": "Welcome to TechFist Agent",
+      "answer": "Ask a direct question about Agentic AI, Sustainability, Trust Infrastructure, Technology Consulting, compliance, verification, case studies, implementation, or booking and I will match it to the site knowledge base.",
+      "bullets": [
+        "Typed questions work better than fixed menu prompts here.",
+        "You can ask about the three core offers or when to start with Technology Consulting first.",
+        "If you are ready, I can route you to the booking calendar immediately."
+      ],
+      "questions": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "start"
+      ],
+      "keywords": [
+        "hello",
+        "greeting",
+        "help",
+        "start"
+      ],
+      "actions": [
+        {
+          "label": "Book Assessment",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "See All Offers",
+          "key": "home"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "topic": "identity",
+      "title": "What TechFist Global does",
+      "answer": "TechFist Global is positioned around three core offers: Agentic AI for governed enterprise automation, Sustainability for operational monitoring and audit-ready reporting, and Trust Infrastructure for verification, evidence lineage, and blockchain-backed attestation. Technology Consulting sits across those offers as the roadmap and transformation layer.",
+      "bullets": [
+        "The company is organized around business outcomes, not disconnected point solutions.",
+        "Technology Consulting helps buyers define architecture, governance, vendor choices, and rollout before committing to delivery.",
+        "Agentic AI, Sustainability, and Trust Infrastructure can run independently or connect over time."
+      ],
+      "questions": [
+        "who are you",
+        "what is techfist global",
+        "what does techfist global do",
+        "tell me about techfist",
+        "what kind of company is this"
+      ],
+      "keywords": [
+        "techfist",
+        "company",
+        "what do you do",
+        "three core offers"
+      ],
+      "actions": [
+        {
+          "label": "See All Offers",
+          "key": "home",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "offerings-overview",
+      "topic": "offerings",
+      "title": "TechFist Global offer structure",
+      "answer": "The site is organized around three core offers plus a supporting Technology Consulting entry point. Agentic AI automates work with governed agents and multi-agent systems, Sustainability runs enterprise sustainability programs through the EcoSustainability Platform, and Trust Infrastructure handles verifiable evidence, decentralized exchange, and blockchain-backed attestation.",
+      "bullets": [
+        "Agentic AI is oriented around support, IT, revenue, engineering, and back-office execution.",
+        "Sustainability is oriented around campaigns, baselines, verification, and defensible reporting.",
+        "Trust Infrastructure is oriented around verification workflows, package lineage, attestation, and audit traceability.",
+        "Technology Consulting is the start-here path for roadmap, architecture, modernization, governance, and rollout planning."
+      ],
+      "questions": [
+        "what do you offer",
+        "what services do you offer",
+        "what are your offerings",
+        "what solutions do you provide",
+        "what are your core services"
+      ],
+      "keywords": [
+        "services",
+        "offerings",
+        "core services",
+        "agentic ai",
+        "sustainability",
+        "trust infrastructure"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        },
+        {
+          "label": "Explore Technology Consulting",
+          "key": "staffing"
+        }
+      ]
+    },
+    {
+      "id": "offer-fit",
+      "topic": "offerings",
+      "title": "Which core service fits which problem",
+      "answer": "Choose Agentic AI when the main problem is manual workflow execution, Sustainability when the main problem is operating and reporting sustainability programs, and Trust Infrastructure when the main problem is proving, tracing, or attesting evidence across reviews and submissions. Choose Technology Consulting first when you still need the roadmap and architecture before selecting the delivery path.",
+      "bullets": [
+        "Agentic AI fits enterprise teams that want agents to act across support, IT, revenue, engineering, or back-office systems.",
+        "Sustainability fits teams that need monitoring, optimization, supplier workflows, compliance support, and audit-ready reporting.",
+        "Trust Infrastructure fits evidence-heavy programs where verification, package lineage, and tamper-evident attestation matter.",
+        "Technology Consulting fits buyers who need use-case prioritization, architecture design, governance, vendor selection, or rollout planning first."
+      ],
+      "questions": [
+        "which service do i need",
+        "which offer fits us",
+        "which solution is right for us",
+        "how do i choose between your offerings",
+        "what is the difference between the three offers"
+      ],
+      "keywords": [
+        "difference between offerings",
+        "which service",
+        "fit",
+        "buyer fit",
+        "compare offers",
+        "technology consulting"
+      ],
+      "actions": [
+        {
+          "label": "Book Assessment",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "Open Contact Section",
+          "key": "contact"
+        }
+      ]
+    },
+    {
+      "id": "offer-linkage",
+      "topic": "offerings",
+      "title": "How the three offers work together",
+      "answer": "The three core offers can run independently or mature into one program. Agentic AI automates work, Sustainability operationalizes emissions and reporting programs, and Trust Infrastructure verifies and defends the evidence behind those programs. Technology Consulting sits across them as the assessment, architecture, and rollout layer.",
+      "bullets": [
+        "Sustainability already includes Trust Infrastructure as an integrated capability for verification, package lineage, and attestation.",
+        "Agentic AI can support workflows inside sustainability and trust processes when automation is required.",
+        "Technology Consulting helps define how and when those offers should connect in a real enterprise program."
+      ],
+      "questions": [
+        "how do the three offers work together",
+        "how do your services connect",
+        "can these offers be combined",
+        "do sustainability and trust infrastructure work together",
+        "can agentic ai be used with sustainability"
+      ],
+      "keywords": [
+        "integrated delivery",
+        "work together",
+        "combine offers",
+        "automation operations trust"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "industry-fit",
+      "topic": "industries",
+      "title": "Where the offers fit best",
+      "answer": "The site shows cross-industry applicability rather than a single vertical. Examples include smart buildings, manufacturing, retail portfolios, supplier networks, compliance programs, and certification or verification workflows.",
+      "bullets": [
+        "Case studies cover buildings, manufacturing, supply chain programs, and retail operations.",
+        "Trust Infrastructure is framed as industry-agnostic and applicable to sustainability, supply chain evidence, compliance submissions, and certification.",
+        "Agentic AI is framed around enterprise functions such as support, IT, revenue, engineering, and shared operations."
+      ],
+      "questions": [
+        "what industries do you serve",
+        "who is this for",
+        "what kind of companies do you work with",
+        "where do these services fit",
+        "what industries are a good fit"
+      ],
+      "keywords": [
+        "industries",
+        "who is this for",
+        "verticals",
+        "buyers",
+        "enterprise fit"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "outcomes-overview",
+      "topic": "offerings",
+      "title": "Representative outcomes on the site",
+      "answer": "The site highlights measurable but non-guaranteed outcomes, including 15-25 percent energy reduction ranges, 5-8 month payback ranges, 30-40 percent Scope 3 visibility improvement, audit-ready evidence trails, and case-study outcomes such as annual savings or reporting-gap reduction.",
+      "bullets": [
+        "The homepage states all metrics are representative ranges, not guarantees.",
+        "Predictive Energy Optimization adds a 10-20 percent peak-demand reduction range.",
+        "Case studies show examples such as 25 percent energy reduction, 18 percent energy reduction, and 40 percent reporting-gap removal."
+      ],
+      "questions": [
+        "what outcomes do you show",
+        "what results can this drive",
+        "what metrics are on the site",
+        "what measurable outcomes do you mention",
+        "what business value do you show"
+      ],
+      "keywords": [
+        "outcomes",
+        "results",
+        "roi",
+        "energy reduction",
+        "payback",
+        "scope 3 visibility"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "topic": "contact",
+      "title": "Leadership team on the site",
+      "answer": "The homepage highlights three leaders. Tonya Jones-Smith focuses on quality engineering and program leadership, Nancy Paul focuses on operational excellence, Lean transformation, and enterprise rollouts, and Aisha is the co-founder focused on AI, systems design, the EcoSustainability Platform, and customer success.",
+      "bullets": [
+        "Tonya Jones-Smith is listed as an Advisory Board Member.",
+        "Nancy Paul is listed as an Advisory Board Member.",
+        "Aisha is listed as Co-Founder."
+      ],
+      "questions": [
+        "who is on your team",
+        "who leads the company",
+        "tell me about the leadership team",
+        "who is tonya jones-smith",
+        "who is aisha"
+      ],
+      "keywords": [
+        "team",
+        "leadership",
+        "tonya",
+        "nancy paul",
+        "aisha",
+        "co-founder"
+      ],
+      "actions": [
+        {
+          "label": "Open Team Section",
+          "key": "team",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "contact-details",
+      "topic": "contact",
+      "title": "Direct contact options",
+      "answer": "The site offers direct access to a delivery lead rather than a generic inbox. Contact options shown on the homepage are Vancouver, BC, phone +1 604-260-7975, email contact@techfistglobal.com, and a stated response target within 2 business days.",
+      "bullets": [
+        "The contact section positions this as best for enterprise buyers who want a scoped next step.",
+        "Phone is positioned for urgent coordination.",
+        "Email is positioned as the fallback if no booking slot works."
+      ],
+      "questions": [
+        "how do i contact you",
+        "what is your email",
+        "what is your phone number",
+        "where are you located",
+        "how can i reach your team"
+      ],
+      "keywords": [
+        "contact",
+        "email",
+        "phone",
+        "location",
+        "vancouver",
+        "delivery lead"
+      ],
+      "actions": [
+        {
+          "label": "Open Contact Section",
+          "key": "contact",
+          "kind": "primary"
+        },
+        {
+          "label": "Email Delivery Team",
+          "key": "email"
+        },
+        {
+          "label": "Call Us",
+          "key": "phone"
+        }
+      ]
+    },
+    {
+      "id": "booking",
+      "topic": "booking",
+      "title": "Book an assessment",
+      "answer": "Booking is handled through a Google-native booking flow. The site describes a 30-minute focused strategy session over Google Meet with live availability and an invite sent automatically after a slot is chosen.",
+      "bullets": [
+        "The site explicitly says booking opens in a new tab.",
+        "Users can add context before the session so the meeting starts with the right frame.",
+        "If no available slot works, the site tells visitors to email the team directly."
+      ],
+      "questions": [
+        "how do i book a session",
+        "book assessment",
+        "how do i schedule a meeting",
+        "can i book a call",
+        "how does booking work"
+      ],
+      "keywords": [
+        "booking",
+        "calendar",
+        "assessment",
+        "strategy session",
+        "google meet",
+        "invite"
+      ],
+      "actions": [
+        {
+          "label": "Open Booking Calendar",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "Email Delivery Team",
+          "key": "email"
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "topic": "assessment",
+      "title": "What happens during the assessment",
+      "answer": "The contact section positions the assessment as a delivery-focused working session. It is meant to review your automation roadmap, sustainability priorities, or trust requirements and move from interest to implementation rather than stay at generic discovery level.",
+      "bullets": [
+        "The site says the session is for scope, priorities, buyers, rollout friction, or where to start across the three offers.",
+        "The session is framed as a strategy conversation with concrete next steps.",
+        "It is explicitly positioned for enterprise buyers rather than casual inquiries."
+      ],
+      "questions": [
+        "what happens during the assessment",
+        "what do you cover in the assessment",
+        "what is the meeting for",
+        "what should we expect in the call",
+        "what is a strategy session"
+      ],
+      "keywords": [
+        "assessment",
+        "strategy session",
+        "what happens",
+        "next step",
+        "working session"
+      ],
+      "actions": [
+        {
+          "label": "Open Booking Calendar",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "Email Delivery Team",
+          "key": "email"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "topic": "pricing",
+      "title": "Pricing is scoped around the problem",
+      "answer": "The website does not publish fixed package pricing. The positioning across the site is consultative and assessment-led, which implies pricing depends on the workflow scope, systems involved, deployment model, and the level of governance or verification required.",
+      "bullets": [
+        "Agentic AI, Sustainability, and Trust Infrastructure are all presented as enterprise offerings rather than self-serve products with flat public pricing.",
+        "Supporting pages focus on capabilities and outcomes, not price tables.",
+        "The site consistently routes pricing conversations into the assessment flow."
+      ],
+      "questions": [
+        "how much does it cost",
+        "what is your pricing",
+        "do you have package pricing",
+        "how are projects priced",
+        "what does this cost"
+      ],
+      "keywords": [
+        "pricing",
+        "cost",
+        "budget",
+        "quote",
+        "flat rate",
+        "package pricing"
+      ],
+      "actions": [
+        {
+          "label": "Book Assessment",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "Email Delivery Team",
+          "key": "email"
+        }
+      ]
+    },
+    {
+      "id": "implementation",
+      "topic": "implementation",
+      "title": "How implementation usually works",
+      "answer": "Across the site, implementation follows a practical sequence: clarify the workflow or operating need, connect data and systems, define governance and verification controls, prove value in a contained scope, and then scale into adjacent functions or sites.",
+      "bullets": [
+        "Agentic AI explicitly uses Opportunity Mapping, Governed Build, Human Oversight, and Pilot to Scale.",
+        "Sustainability explicitly uses Connect data sources, Establish baselines, Optimize operations, and Report with assurance.",
+        "Trust Infrastructure explicitly uses Capture, Validate, Review, Attest, and Retrieve and Defend."
+      ],
+      "questions": [
+        "how do you implement this",
+        "what does implementation look like",
+        "how would a rollout work",
+        "what is your delivery approach",
+        "how do projects usually start"
+      ],
+      "keywords": [
+        "implementation",
+        "rollout",
+        "delivery approach",
+        "pilot",
+        "scale",
+        "governance"
+      ],
+      "actions": [
+        {
+          "label": "Book Assessment",
+          "key": "booking",
+          "kind": "primary"
+        },
+        {
+          "label": "View Case Studies",
+          "key": "cases"
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "topic": "general",
+      "title": "Happy to help",
+      "answer": "Ask a follow-up question about an offering, a workflow, an industry fit, case study proof, or the booking flow and I will stay within the site content.",
+      "questions": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "got it"
+      ],
+      "keywords": [
+        "thanks",
+        "thank you"
+      ],
+      "actions": [
+        {
+          "label": "Book Assessment",
+          "key": "booking",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "agentic-overview",
+      "topic": "agentic",
+      "title": "Agentic AI services",
+      "answer": "The Agentic AI page positions TechFist Global around governed enterprise agents for support, IT, revenue, engineering, and back-office operations. The core promise is that agents do real work across enterprise systems with human oversight and measurable business value.",
+      "bullets": [
+        "The page headline is enterprise-focused rather than generic AI experimentation.",
+        "It explicitly includes onboarding AI agents and multi-agent system development.",
+        "The page keeps governance, approvals, escalation, observability, and fallback as core parts of delivery."
+      ],
+      "questions": [
+        "what is your agentic ai service",
+        "tell me about agentic ai",
+        "what can your ai offering automate",
+        "what does the agentic ai page cover",
+        "what is included in agentic ai"
+      ],
+      "keywords": [
+        "agentic ai",
+        "enterprise agents",
+        "automation",
+        "copilots",
+        "multi-agent",
+        "governed ai"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "agentic-onboarding",
+      "topic": "agentic",
+      "title": "AI agent onboarding and rollout",
+      "answer": "Yes. The Agentic AI offer explicitly includes onboarding AI agents and rolling them out with governance. The page frames the work as identifying high-friction workflows, defining approvals, connecting systems, and scaling from pilot to broader execution.",
+      "bullets": [
+        "This is not positioned as just one chatbot demo.",
+        "The approach starts with workflow and business risk, not model novelty.",
+        "It is suitable for support, IT, revenue, engineering, and shared operations."
+      ],
+      "questions": [
+        "do you onboard ai agents",
+        "can you help us onboard ai agents",
+        "how do you onboard agents",
+        "we want to onboard ai agents",
+        "ai agent rollout"
+      ],
+      "keywords": [
+        "agent onboarding",
+        "onboard ai agents",
+        "ai rollout",
+        "agent rollout",
+        "governed adoption"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book AI Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "topic": "agentic",
+      "title": "Multi-agent system development",
+      "answer": "Yes. Multi-agent system development is part of the Agentic AI offer. The site frames it as coordinated agents with roles, approvals, escalation paths, and system actions across multi-step enterprise workflows.",
+      "bullets": [
+        "It is useful when work crosses multiple teams or systems rather than staying inside one prompt-response task.",
+        "The homepage also highlights multi-agent orchestration as part of the Agentic AI offer.",
+        "Governance and human oversight stay in place even when multiple agents coordinate."
+      ],
+      "questions": [
+        "do you build multi agent systems",
+        "do you build multi-agent systems",
+        "multi agentic system development",
+        "can you build agent swarms",
+        "multi agent workflows"
+      ],
+      "keywords": [
+        "multi-agent",
+        "multi agent",
+        "orchestration",
+        "agent workflow",
+        "agent system",
+        "agent swarm"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book AI Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "customer-service-agents",
+      "topic": "agentic",
+      "title": "Customer Service Agents",
+      "answer": "Customer Service Agents are aimed at service and support leaders. They are positioned to intake cases, handle FAQ and order-status requests, summarize conversations, route work, provide escalation context, and automate follow-up across CRM, ticketing, and knowledge tools.",
+      "bullets": [
+        "The value framing is lower response times, lower cost to serve, and better service-team productivity.",
+        "The page treats this as a demand-led enterprise use case rather than a generic support bot.",
+        "It is one of the five primary Agentic AI service offerings."
+      ],
+      "questions": [
+        "do you offer customer service agents",
+        "what do your customer service agents do",
+        "can you automate customer support",
+        "how do your support agents work",
+        "service desk agents"
+      ],
+      "keywords": [
+        "customer service agents",
+        "support agents",
+        "case intake",
+        "faq",
+        "order status",
+        "service leaders"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "it-support-agents",
+      "topic": "agentic",
+      "title": "IT and Employee Support Agents",
+      "answer": "IT and Employee Support Agents are aimed at CIO, IT, and employee-experience teams. They are positioned to triage helpdesk issues, retrieve policy context, handle password reset and access-request workflows, support device issues, and coordinate onboarding or offboarding tasks across identity and ticketing systems.",
+      "bullets": [
+        "The value framing is faster internal resolution, fewer manual tickets, and better SLA performance.",
+        "The simulated demo on the page uses an employee access request as the example workflow.",
+        "This is one of the strongest enterprise-operating examples on the Agentic AI page."
+      ],
+      "questions": [
+        "do you offer it support agents",
+        "what do your employee support agents do",
+        "can you automate helpdesk triage",
+        "can you automate password reset or access requests",
+        "it helpdesk agents"
+      ],
+      "keywords": [
+        "it support agents",
+        "employee support",
+        "helpdesk",
+        "password reset",
+        "access request",
+        "employee experience"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "revenue-growth-agents",
+      "topic": "agentic",
+      "title": "Revenue and Growth Agents",
+      "answer": "Revenue and Growth Agents are aimed at revenue-operations and sales leaders. They are positioned to qualify and route leads, schedule meetings, maintain CRM hygiene, support proposals, suggest next-best actions, and handle campaign-to-sales handoffs or follow-up workflows.",
+      "bullets": [
+        "The value framing is higher pipeline efficiency, cleaner data, and shorter deal-cycle friction.",
+        "The page treats revenue automation as a governed workflow, not just content generation.",
+        "This offer is useful when sales teams have coordination drag across tools and handoffs."
+      ],
+      "questions": [
+        "do you offer revenue agents",
+        "what do your sales agents do",
+        "can you automate lead qualification",
+        "how do revenue and growth agents help",
+        "revenue operations agents"
+      ],
+      "keywords": [
+        "revenue agents",
+        "growth agents",
+        "sales automation",
+        "lead qualification",
+        "crm hygiene",
+        "revops"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "engineering-qa-agents",
+      "topic": "agentic",
+      "title": "Engineering and QA Agents",
+      "answer": "Engineering and QA Agents are aimed at engineering and quality leaders. They are positioned to support code generation, refactoring, technical retrieval, test creation, bug triage, debugging assistance, release-note drafting, and engineering knowledge workflows.",
+      "bullets": [
+        "The value framing is faster delivery cycles, higher engineering throughput, and better handoff quality.",
+        "This fits teams that want agents embedded in build, test, triage, and release workflows.",
+        "The page explicitly ties this to practical enterprise demand signals from OpenAI and broader market adoption."
+      ],
+      "questions": [
+        "do you offer engineering agents",
+        "what do your qa agents do",
+        "can you automate testing or bug triage",
+        "how do engineering and qa agents help",
+        "developer productivity agents"
+      ],
+      "keywords": [
+        "engineering agents",
+        "qa agents",
+        "test creation",
+        "bug triage",
+        "release notes",
+        "developer productivity"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "back-office-operations-agents",
+      "topic": "agentic",
+      "title": "Back-Office Operations Agents",
+      "answer": "Back-Office Operations Agents are aimed at COO, shared-services, and operations teams. They are positioned to support finance, procurement, and HR research, spreadsheet analysis, approval preparation, exception handling, and reporting support across shared-service queues.",
+      "bullets": [
+        "The value framing is less manual coordination, faster decision execution, and better operational consistency.",
+        "The page emphasizes agents that prepare work before humans decide, not agents that replace accountable decisions.",
+        "This offer is relevant when there is high coordination overhead across internal service workflows."
+      ],
+      "questions": [
+        "do you offer back office agents",
+        "what do your operations agents do",
+        "can you automate finance or procurement workflows",
+        "how do back-office agents help",
+        "shared services agents"
+      ],
+      "keywords": [
+        "back office agents",
+        "operations agents",
+        "finance workflows",
+        "procurement",
+        "hr workflows",
+        "shared services"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "agentic-engagement-model",
+      "topic": "agentic",
+      "title": "How TechFist engages on Agentic AI",
+      "answer": "The Agentic AI delivery model has four parts: Opportunity Mapping, Governed Build, Human Oversight, and Pilot to Scale. The page emphasizes starting with workflow value, connecting the right systems, keeping privileged actions behind approvals, and scaling only after value is proven.",
+      "bullets": [
+        "Opportunity Mapping prioritizes use cases by cycle time, ticket volume, business risk, and system readiness.",
+        "Governed Build connects data sources, defines agent actions, and tests guardrails before production.",
+        "Pilot to Scale expands from one successful workflow into adjacent functions with reusable controls."
+      ],
+      "questions": [
+        "how do you deliver agentic ai",
+        "what is your agentic ai process",
+        "how do you engage on ai projects",
+        "what is governed build",
+        "how do you scale agentic ai"
+      ],
+      "keywords": [
+        "opportunity mapping",
+        "governed build",
+        "human oversight",
+        "pilot to scale",
+        "agentic ai delivery"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book AI Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "agentic-demo",
+      "topic": "agentic",
+      "title": "Employee support agent demo",
+      "answer": "The Agentic AI page includes a simulated employee-support run. The flow receives an access request, retrieves policy and user context, drafts a resolution or routing path, routes approval if privileged access is involved, and then executes the action while logging the full support history.",
+      "bullets": [
+        "It is deliberately framed as governed execution rather than a chat-only assistant.",
+        "The example is enterprise-safe and tied to policy context and approvals.",
+        "The run log shows how requests can be routed, approved, completed, and traced."
+      ],
+      "questions": [
+        "what is the ai demo on the page",
+        "show me the agentic ai demo",
+        "what does the simulated employee support run do",
+        "how does the support agent example work",
+        "what is the run log about"
+      ],
+      "keywords": [
+        "demo",
+        "employee support",
+        "access request",
+        "run log",
+        "simulated workflow",
+        "policy context"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Book AI Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "agentic-governance",
+      "topic": "governance",
+      "title": "Governance and control across AI deployments",
+      "answer": "The Agentic AI page keeps governance as a shared trust layer across every deployment. The controls called out are approvals and escalation paths, auditability and trace, observability and fallback, security boundaries, and human override.",
+      "bullets": [
+        "This is the control model that keeps agentic systems usable inside enterprise environments.",
+        "Privileged actions are expected to stay behind approvals and escalation logic.",
+        "The positioning is practical governance, not AI hype."
+      ],
+      "questions": [
+        "how do you govern ai agents",
+        "what controls do you use for agentic ai",
+        "how do approvals and fallback work",
+        "what is the trust layer on the ai page",
+        "how do you keep ai deployments safe"
+      ],
+      "keywords": [
+        "governance",
+        "approvals",
+        "escalation",
+        "observability",
+        "fallback",
+        "human override",
+        "security boundaries"
+      ],
+      "actions": [
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-overview",
+      "topic": "sustainability",
+      "title": "EcoSustainability Platform overview",
+      "answer": "The Sustainability offer is centered on the EcoSustainability Platform. It is positioned as an operating platform for monitoring, optimization, compliance support, verification, and audit-ready reporting rather than generic ESG messaging.",
+      "bullets": [
+        "The homepage describes it as one operating layer for live baselines, operational optimization, and audit-ready reporting.",
+        "The page-level hero describes it as a dedicated sustainability platform for operational monitoring, optimization, compliance reporting, and trust-backed evidence workflows.",
+        "It connects facilities, suppliers, and verification trails in one system."
+      ],
+      "questions": [
+        "what is the sustainability platform",
+        "tell me about ecosustainability platform",
+        "what does the sustainability offer do",
+        "what is included in sustainability",
+        "how does the sustainability platform work"
+      ],
+      "keywords": [
+        "ecosustainability platform",
+        "sustainability platform",
+        "monitoring",
+        "optimization",
+        "reporting",
+        "evidence workflows"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-enterprise-controls",
+      "topic": "sustainability",
+      "title": "Enterprise controls on the Sustainability page",
+      "answer": "The main Sustainability section is framed around enterprise controls for campaign launch, verification, and defensible reporting. The section subtitle says the platform is built from campaign launch to audit-ready evidence and designed to reduce greenwashing risk with integrated trust infrastructure.",
+      "bullets": [
+        "This section is positioned for enterprise market capture rather than broad ESG language.",
+        "The three main cards are Plan and Launch Campaigns, Evidence and Verification at Scale, and Defensible Reporting and Trust.",
+        "Trust Infrastructure is explicitly referenced as part of the sustainability stack."
+      ],
+      "questions": [
+        "what are the enterprise controls on the sustainability page",
+        "what does explore sustainability platform show",
+        "how is the sustainability section positioned",
+        "what is the main sustainability section about",
+        "what does the sustainability page emphasize"
+      ],
+      "keywords": [
+        "enterprise controls",
+        "explore sustainability platform",
+        "greenwashing risk",
+        "audit-ready evidence",
+        "defensible reporting"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-status",
+      "topic": "sustainability",
+      "title": "What is live, in rollout, and on the roadmap",
+      "answer": "The current sustainability section signals status clearly. Plan and Launch Campaigns is marked Live, Evidence and Verification at Scale is marked Live, Defensible Reporting and Trust is marked Live plus Roadmap, and the Verification Layer sub-block is marked In Rollout.",
+      "bullets": [
+        "Blockchain package attestation is called out as a roadmap item inside Defensible Reporting and Trust.",
+        "The Verification Layer uses an In Rollout badge rather than Live.",
+        "The section is designed to communicate concrete product maturity, not vague future intent."
+      ],
+      "questions": [
+        "what is live on the sustainability platform",
+        "what is on the roadmap",
+        "what is in rollout",
+        "which sustainability features are live",
+        "what do the status badges mean"
+      ],
+      "keywords": [
+        "live",
+        "roadmap",
+        "in rollout",
+        "status badges",
+        "maturity",
+        "platform status"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Demo",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "plan-launch-campaigns",
+      "topic": "sustainability",
+      "title": "Plan and Launch Campaigns",
+      "answer": "The Plan and Launch Campaigns card is marked Live. It describes a guided campaign builder with step validation, a manager-propose and admin-approve workflow, Scope 1 and Scope 2 campaign templates plus scratch mode, and policy-safe defaults that reduce setup errors.",
+      "bullets": [
+        "This is the campaign-launch layer of the Sustainability platform.",
+        "The emphasis is on reducing setup mistakes in enterprise programs.",
+        "It is one of the three main productized sustainability cards."
+      ],
+      "questions": [
+        "how do you launch sustainability campaigns",
+        "what is plan and launch campaigns",
+        "do you have scope 1 or scope 2 templates",
+        "how does campaign setup work",
+        "what campaign controls are live"
+      ],
+      "keywords": [
+        "campaign builder",
+        "launch campaigns",
+        "scope 1 templates",
+        "scope 2 templates",
+        "manager propose admin approve",
+        "policy-safe defaults"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Enterprise Demo",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "evidence-verification-scale",
+      "topic": "verification",
+      "title": "Evidence and Verification at Scale",
+      "answer": "The Evidence and Verification at Scale card is marked Live. It covers employee evidence submission with pre-submit checks, manager-defined evidence policy across manual, proof, geo, and date controls, deterministic reason codes for pass, fail, or manual review, and a verification queue with SLA and separation-of-duties controls.",
+      "bullets": [
+        "The page treats verification as an operational system, not just a reviewer afterthought.",
+        "Reason codes are explicit, deterministic outputs from the policy layer.",
+        "The queue is designed for enterprise review governance at scale."
+      ],
+      "questions": [
+        "how does evidence verification work at scale",
+        "what is evidence and verification at scale",
+        "how do pre-submit checks work",
+        "what evidence policies can be defined",
+        "how do reason codes work"
+      ],
+      "keywords": [
+        "evidence verification",
+        "pre-submit checks",
+        "manual proof geo date",
+        "reason codes",
+        "verification queue",
+        "separation of duties"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "See Verification Workflow",
+          "key": "qa"
+        }
+      ]
+    },
+    {
+      "id": "defensible-reporting-trust",
+      "topic": "sustainability",
+      "title": "Defensible Reporting and Trust",
+      "answer": "The Defensible Reporting and Trust card is marked Live plus Roadmap. It says release gates can block unresolved high-risk submissions, lifecycle trace and submission-package lineage are audit-ready, AI advisory triage is assistive with human override, and blockchain package attestation is on the roadmap with no raw PII on-chain.",
+      "bullets": [
+        "This is where Trust Infrastructure is made visible inside the Sustainability offer.",
+        "The page explicitly ties this to reducing greenwashing risk.",
+        "AI is framed as advisory triage rather than a fully autonomous reviewer."
+      ],
+      "questions": [
+        "what is defensible reporting and trust",
+        "how do you make reporting defensible",
+        "what does the trust card on the sustainability page do",
+        "how do release gates and lineage work",
+        "where does blockchain fit in sustainability reporting"
+      ],
+      "keywords": [
+        "defensible reporting",
+        "release gate",
+        "package lineage",
+        "ai advisory triage",
+        "blockchain attestation",
+        "greenwashing risk"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "verification-layer",
+      "topic": "verification",
+      "title": "Verification Layer",
+      "answer": "The Verification Layer sub-block is marked In Rollout. It describes deterministic checks before reviewer action, human-in-the-loop review with mandatory override reasons for conflicts, queue and SLA control, release safety gates for high-risk claims, and a fully traceable audit and defensibility record with actor, reason, timestamp, and evidence linkage.",
+      "bullets": [
+        "The section says it is built to minimize greenwashing risk while keeping workflows practical for enterprise teams.",
+        "Deterministic checks run before human reviewers act.",
+        "The release gate prevents high-risk claims from moving forward until verification tasks are closed."
+      ],
+      "questions": [
+        "what is the verification layer",
+        "show me the verification workflow",
+        "how does the verification layer work",
+        "what is human in the loop review here",
+        "how do you reduce greenwashing risk"
+      ],
+      "keywords": [
+        "verification layer",
+        "deterministic checks",
+        "human in the loop",
+        "queue sla control",
+        "release safety gate",
+        "audit defensibility"
+      ],
+      "actions": [
+        {
+          "label": "See Verification Workflow",
+          "key": "qa",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-architecture",
+      "topic": "sustainability",
+      "title": "Sustainability architecture flow",
+      "answer": "The Sustainability page lays out a four-step architecture. It connects data sources, establishes baselines, optimizes operations, and reports with assurance. The description explicitly mentions ERP, utility, BMS or EMS, IoT, procurement, and supplier data unified securely.",
+      "bullets": [
+        "Baselines combine normalized usage, emissions factors, and data-quality rules.",
+        "Optimization focuses on load forecasting, waste detection, and schedule or capital recommendations.",
+        "Reporting focuses on disclosures, evidence trails, and executive views with less manual work."
+      ],
+      "questions": [
+        "what is the sustainability architecture",
+        "how does the platform flow from data to action",
+        "what are the steps from data to reporting",
+        "how do you go from baselines to reporting",
+        "what is the architecture on the platform page"
+      ],
+      "keywords": [
+        "connect data sources",
+        "establish baselines",
+        "optimize operations",
+        "report with assurance",
+        "architecture"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Cloud Infrastructure",
+          "key": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "deployment-options",
+      "topic": "sustainability",
+      "title": "SaaS, on-prem, or hybrid deployment",
+      "answer": "The Sustainability offer supports three deployment models: SaaS for faster rollout and centralized management, On-Prem for full data control in regulated environments or strict IT settings, and Hybrid for a mix of edge processing and cloud analytics.",
+      "bullets": [
+        "The in-house product page repeats the same core deployment model.",
+        "The site also uses deployment tags such as SaaS rollout, On-prem control, Hybrid architecture, and Custom integrations.",
+        "Deployment is presented as something tailored to security, compliance, and operational requirements."
+      ],
+      "questions": [
+        "what deployment options do you support",
+        "is the platform saas or on prem",
+        "can this run on-prem",
+        "do you offer hybrid deployment",
+        "how do you deploy the platform"
+      ],
+      "keywords": [
+        "saas",
+        "on-prem",
+        "hybrid",
+        "deployment",
+        "custom integrations",
+        "data control"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "sustainability-integrations",
+      "topic": "integrations",
+      "title": "Sustainability integrations",
+      "answer": "The Sustainability page lists a broad enterprise integration surface: ERP, CRM, ServiceNow, Salesforce, Microsoft 365, Slack or Teams, BMS or EMS, IoT sensors, SCADA, Snowflake, Databricks, AWS, Azure, GCP, and supplier portals.",
+      "bullets": [
+        "The Cloud Infrastructure page adds multi-site ingestion, carbon-intensity calculations, and API integrations with ERP and procurement systems.",
+        "The architecture section also references utility, procurement, and supplier data.",
+        "Integrations are positioned as part of end-to-end sustainability program execution rather than standalone connectors."
+      ],
+      "questions": [
+        "what systems do you integrate with",
+        "what integrations do you support",
+        "can this connect to snowflake or databricks",
+        "do you integrate with erp or servicenow",
+        "what enterprise systems connect to the platform"
+      ],
+      "keywords": [
+        "integrations",
+        "erp",
+        "crm",
+        "servicenow",
+        "snowflake",
+        "databricks",
+        "aws azure gcp",
+        "iot",
+        "scada"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Cloud Infrastructure",
+          "key": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "roi-estimator",
+      "topic": "sustainability",
+      "title": "Cost and carbon estimator",
+      "answer": "The Sustainability page includes an estimator for directional ROI and carbon impact. It asks for annual electricity in kWh, cost per kWh, expected reduction percentage, emissions factor, and project cost, then returns outputs such as estimated annual savings, emissions reduction, and payback.",
+      "bullets": [
+        "The page frames it as quick directional math rather than a guaranteed business case.",
+        "The homepage and AI Energy pages reinforce similar outcome ranges for savings and payback.",
+        "This estimator supports business-case conversations during assessment."
+      ],
+      "questions": [
+        "do you have an roi calculator",
+        "how does the estimator work",
+        "what inputs does the sustainability calculator need",
+        "can i estimate cost and carbon impact",
+        "what outputs does the calculator show"
+      ],
+      "keywords": [
+        "estimator",
+        "roi calculator",
+        "cost and carbon impact",
+        "annual electricity",
+        "payback",
+        "emissions factor"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "security-assurance",
+      "topic": "governance",
+      "title": "Security and assurance for sustainability data",
+      "answer": "The Sustainability page includes a security and assurance section focused on governance for sustainability data and reporting. The site calls out role-based access, immutable audit trails, data validation, and change tracking as the core control patterns.",
+      "bullets": [
+        "The Trust Infrastructure page extends this with package lineage and attestation patterns.",
+        "The Data Assurance page adds anomaly detection, reconciliation, and evidence storage.",
+        "The overall pattern is governance-first rather than dashboard-only sustainability tooling."
+      ],
+      "questions": [
+        "how do you secure sustainability data",
+        "what security controls are on the platform",
+        "what assurance controls do you use",
+        "how do audit trails and change tracking work",
+        "what governance do you have for reporting data"
+      ],
+      "keywords": [
+        "security",
+        "assurance",
+        "role-based access",
+        "audit trails",
+        "change tracking",
+        "data validation"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "platform-modules",
+      "topic": "sustainability",
+      "title": "Sustainability platform modules",
+      "answer": "The homepage lists six sustainability modules: Real-time monitoring, Predictive optimization, Supplier carbon network, Compliance automation, Carbon and cost dashboards, and Custom sustainability services. These are presented as modules tailored to each client rather than one rigid package.",
+      "bullets": [
+        "Real-time monitoring focuses on unified dashboards for energy use, carbon intensity, and equipment performance.",
+        "Predictive optimization focuses on schedules, peaks, and asset efficiency.",
+        "Supplier carbon network focuses on Scope 3 data collection, validation, and engagement workflows."
+      ],
+      "questions": [
+        "what modules are in the sustainability platform",
+        "what are the sustainability modules",
+        "what does the platform include",
+        "what can be customized in the platform",
+        "what functionality is in ecosustainability"
+      ],
+      "keywords": [
+        "modules",
+        "real-time monitoring",
+        "predictive optimization",
+        "supplier carbon network",
+        "carbon dashboards",
+        "custom sustainability services"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "compliance-overview",
+      "topic": "compliance",
+      "title": "Compliance Automation",
+      "answer": "Compliance Automation is positioned as a way to turn reporting burden into strategic advantage. The four-step workflow is Data collection, Mapping rules, Evidence trails, and Reporting outputs, with the goal of making sustainability data audit-ready, consistent, and aligned to evolving regulations.",
+      "bullets": [
+        "Data collection covers energy, emissions, and supplier data from systems of record.",
+        "Mapping rules cover CSRD, SEC, SBTi, and internal KPIs.",
+        "Evidence trails and reporting outputs focus on versioned disclosures, lineage, and stakeholder dashboards."
+      ],
+      "questions": [
+        "what does compliance automation cover",
+        "tell me about compliance automation",
+        "how does your compliance workflow work",
+        "what is on the compliance page",
+        "how do you reduce reporting burden"
+      ],
+      "keywords": [
+        "compliance automation",
+        "data collection",
+        "mapping rules",
+        "evidence trails",
+        "reporting outputs",
+        "audit-ready"
+      ],
+      "actions": [
+        {
+          "label": "Explore Compliance Automation",
+          "key": "compliance",
+          "kind": "primary"
+        },
+        {
+          "label": "Build Compliance Roadmap",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "compliance-frameworks",
+      "topic": "compliance",
+      "title": "Compliance frameworks supported",
+      "answer": "The site explicitly names four framework groupings: CSRD alignment with ESRS data mapping, SEC climate-risk disclosures, SBTi tracking for decarbonization targets, and GHG Protocol accounting guidance. The supporting automation page repeats the same coverage with similar wording.",
+      "bullets": [
+        "The site also notes that final reporting requirements should be reviewed with legal and compliance teams.",
+        "Compliance Automation is presented as a structured workflow rather than a legal opinion engine.",
+        "The homepage report-with-confidence block highlights CSRD and SEC workflows plus SBTi alignment support."
+      ],
+      "questions": [
+        "what compliance frameworks do you support",
+        "do you support csrd or esrs",
+        "do you support sec climate disclosures",
+        "what about sbti or ghg protocol",
+        "what regulations are covered"
+      ],
+      "keywords": [
+        "csrd",
+        "esrs",
+        "sec climate",
+        "sbti",
+        "ghg protocol",
+        "frameworks supported"
+      ],
+      "actions": [
+        {
+          "label": "Explore Compliance Automation",
+          "key": "compliance",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "automation-services",
+      "topic": "automation",
+      "title": "Compliance Automation Services page",
+      "answer": "The Compliance Automation Services page reinforces the same positioning with three core service blocks: Data mapping, Evidence trails, and Reporting outputs. It adds representative outcomes such as a 40-60 percent reduction in reporting-cycle time, audit-ready evidence trails, and higher data quality across scopes.",
+      "bullets": [
+        "The automation page is the tighter service-page version of the broader compliance story.",
+        "It repeats CSRD, ESRS, SEC, SBTi, and GHG Protocol coverage.",
+        "The page keeps the same caveat that reporting requirements should be reviewed with legal and compliance teams."
+      ],
+      "questions": [
+        "what is on the compliance automation services page",
+        "what are your compliance services",
+        "what does the automation page cover",
+        "what results do you show for compliance automation",
+        "how much cycle time can compliance automation reduce"
+      ],
+      "keywords": [
+        "compliance services",
+        "automation page",
+        "40-60 percent",
+        "reporting cycle time",
+        "data mapping",
+        "evidence trails"
+      ],
+      "actions": [
+        {
+          "label": "Explore Compliance Automation",
+          "key": "automation",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "data-assurance-overview",
+      "topic": "qa",
+      "title": "Emissions Data Quality and Validation",
+      "answer": "The Data Assurance page is focused on trustworthy emissions data for reporting. It covers automated validation rules, reconciliation across utility bills, sensor data, and procurement records, plus audit trails for every data change. The page explicitly references Scope 1, 2, and 3 validation workflows.",
+      "bullets": [
+        "Capabilities include outlier detection, anomaly flagging, materiality checks, evidence storage, and version control.",
+        "The stated outcomes are lower audit risk, stronger governance, and more reliable metrics across sites.",
+        "This page is the main answer for questions about emissions-data integrity."
+      ],
+      "questions": [
+        "what is data assurance",
+        "tell me about emissions data quality and validation",
+        "how do you validate sustainability data",
+        "what is on the qa page",
+        "how do you reduce audit risk in data"
+      ],
+      "keywords": [
+        "data assurance",
+        "emissions data quality",
+        "validation",
+        "reconciliation",
+        "audit trails",
+        "scope 1 2 3"
+      ],
+      "actions": [
+        {
+          "label": "Explore Data Assurance",
+          "key": "qa",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Compliance Automation",
+          "key": "compliance"
+        }
+      ]
+    },
+    {
+      "id": "cloud-infrastructure-overview",
+      "topic": "cloud",
+      "title": "IoT and Cloud Sustainability Infrastructure",
+      "answer": "The Cloud Infrastructure page describes the edge-to-cloud pipeline that powers monitoring, optimization, and compliance workflows. It covers edge capture from IoT sensors and BMS or EMS systems, streaming analytics for alerts and baselines, and a scalable data lake for secure long-term reporting.",
+      "bullets": [
+        "Capabilities include multi-site data ingestion with normalization, carbon-intensity calculations, API integrations with ERP and procurement systems, and secure role-based governance.",
+        "The stated outcomes are real-time unified energy and emissions visibility, multi-site scalability, and audit-ready lineage.",
+        "This page supports the Sustainability architecture and integration story."
+      ],
+      "questions": [
+        "what is cloud infrastructure",
+        "tell me about iot and cloud sustainability infrastructure",
+        "how do you connect assets and data sources",
+        "what is on the cloud page",
+        "how does the platform handle edge to cloud data"
+      ],
+      "keywords": [
+        "cloud infrastructure",
+        "iot",
+        "edge capture",
+        "streaming analytics",
+        "data lake",
+        "multi-site ingestion"
+      ],
+      "actions": [
+        {
+          "label": "Explore Cloud Infrastructure",
+          "key": "cloud",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "supplier-engagement-overview",
+      "topic": "supplier",
+      "title": "Supplier Engagement Platform",
+      "answer": "The Supplier Engagement Platform is the Scope 3 workflow layer for bringing suppliers into the sustainability program. It covers supplier onboarding, data validation, scorecards, questionnaires, evidence requests, procurement integration, and collaborative reduction planning.",
+      "bullets": [
+        "The stated outcomes are improved supplier coverage, lower reporting gaps, and shared accountability against targets.",
+        "The compliance page reinforces this as the answer to Scope 3 data without the chaos.",
+        "This page is the main answer for Scope 3 participation and supplier workflow questions."
+      ],
+      "questions": [
+        "what is the supplier engagement platform",
+        "how do you handle scope 3 supplier data",
+        "how do you bring suppliers into the program",
+        "what is on the supplier page",
+        "how do supplier scorecards and questionnaires work"
+      ],
+      "keywords": [
+        "supplier engagement",
+        "scope 3",
+        "supplier onboarding",
+        "scorecards",
+        "questionnaires",
+        "procurement integration"
+      ],
+      "actions": [
+        {
+          "label": "Explore Supplier Engagement",
+          "key": "supplier",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "predictive-energy-optimization",
+      "topic": "aiml",
+      "title": "Predictive Energy Optimization",
+      "answer": "The Predictive Energy Optimization page is the AI-energy layer of the Sustainability offer. It combines load forecasting, anomaly detection, and optimization controls to reduce peak demand, cut energy spend, and lower carbon footprint.",
+      "bullets": [
+        "Capabilities include demand-response readiness, peak shaving strategies, asset-level efficiency baselines, ROI and emissions scenario modeling, and continuous tuning.",
+        "Representative outcomes shown are 15-25 percent energy reduction, 10-20 percent peak-demand reduction, and 5-8 month payback ranges.",
+        "The page clearly notes that outcomes vary by asset mix, baseline efficiency, and operational constraints."
+      ],
+      "questions": [
+        "what is predictive energy optimization",
+        "how do you use ai for energy optimization",
+        "what is on the ai energy page",
+        "how do load forecasting and anomaly detection help",
+        "what outcomes do you show for optimization"
+      ],
+      "keywords": [
+        "predictive energy optimization",
+        "load forecasting",
+        "anomaly detection",
+        "optimization controls",
+        "peak shaving",
+        "energy savings"
+      ],
+      "actions": [
+        {
+          "label": "Explore Predictive Optimization",
+          "key": "aiml",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "custom-sustainability-apps",
+      "topic": "appdev",
+      "title": "Custom Sustainability Apps",
+      "answer": "The Custom Sustainability Apps page is about designing tailored applications around the client workflow. The examples on the page are executive dashboards, facility-operations views, and supplier portals.",
+      "bullets": [
+        "Capabilities include custom KPI configuration, role-based views, mobile-friendly experiences, secure data sharing, and integration with the EcoSustainability Platform.",
+        "The stated outcomes are faster adoption, aligned reporting through a single source of truth, and more actionable insights.",
+        "This is the main answer for custom application or dashboard questions inside the sustainability offer."
+      ],
+      "questions": [
+        "do you build custom sustainability apps",
+        "what is on the custom apps page",
+        "can you build dashboards or portals",
+        "what kinds of apps do you build",
+        "how do you support adoption with custom apps"
+      ],
+      "keywords": [
+        "custom sustainability apps",
+        "executive dashboards",
+        "facility operations",
+        "supplier portals",
+        "role-based views",
+        "mobile-friendly"
+      ],
+      "actions": [
+        {
+          "label": "Explore Custom Apps",
+          "key": "appdev",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "ecosustainability-platform-product",
+      "topic": "product",
+      "title": "EcoSustainability Platform product page",
+      "answer": "The in-house product page describes EcoSustainability Platform as a hybrid SaaS and on-prem platform that connects energy, emissions, and compliance data into a single operating system. It summarizes the platform through three modules: Real-time monitoring, AI optimization, and Compliance automation.",
+      "bullets": [
+        "It repeats the deployment options of SaaS, On-prem, and Hybrid.",
+        "It adds customization points such as custom KPIs per facility, ERP or procurement integrations, role-based dashboards, and a dedicated optimization and support team.",
+        "This page functions as a tighter product summary inside the broader sustainability story."
+      ],
+      "questions": [
+        "what is on the inhouse product page",
+        "what does the ecosustainability platform product page say",
+        "is there a product summary page",
+        "how is the core product described",
+        "what modules are on the product page"
+      ],
+      "keywords": [
+        "core product",
+        "inhouse",
+        "single operating system",
+        "real-time monitoring",
+        "ai optimization",
+        "compliance automation"
+      ],
+      "actions": [
+        {
+          "label": "Explore Product Summary",
+          "key": "product",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "trust-overview",
+      "topic": "trust",
+      "title": "Trust Infrastructure",
+      "answer": "Trust Infrastructure is the standalone offer for verifiable evidence, decentralized exchange, and blockchain-backed attestation. The page frames it as practical trust: cleaner evidence intake, auditable decisions, tamper-evident packages, and cross-party verification that stands up under review.",
+      "bullets": [
+        "The offer is explicitly industry-agnostic, not positioned as generic crypto consulting.",
+        "The main promise is defensibility rather than hype.",
+        "The page cross-links back into Sustainability as one major application area."
+      ],
+      "questions": [
+        "what is trust infrastructure",
+        "tell me about trust infrastructure",
+        "what does the trust infrastructure page cover",
+        "what is your evidence trust service",
+        "what is included in trust infrastructure"
+      ],
+      "keywords": [
+        "trust infrastructure",
+        "evidence trust",
+        "verifiable evidence",
+        "attestation",
+        "decentralized exchange",
+        "audit traceability"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Trust Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "trusted-evidence-workflows",
+      "topic": "trust",
+      "title": "Trusted Evidence Workflows",
+      "answer": "Trusted Evidence Workflows are the first core block on the Trust Infrastructure page. They structure evidence intake, validation, review, and release so each submission moves through clear controls before acceptance.",
+      "bullets": [
+        "The listed controls are pre-submit checks, policy-driven validation, reason codes, reviewer queues, SLAs, and override controls.",
+        "This is the clearest answer for how evidence moves before attestation.",
+        "It closely aligns with the Verification Layer on the Sustainability page."
+      ],
+      "questions": [
+        "what are trusted evidence workflows",
+        "how do your evidence workflows work",
+        "what controls exist before evidence is accepted",
+        "how do pre-submit checks and review work",
+        "what is the first trust infrastructure block"
+      ],
+      "keywords": [
+        "trusted evidence workflows",
+        "policy-driven validation",
+        "reviewer queues",
+        "override controls",
+        "pre-submit checks",
+        "reason codes"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "See Verification Workflow",
+          "key": "qa"
+        }
+      ]
+    },
+    {
+      "id": "decentralized-evidence-exchange",
+      "topic": "trust",
+      "title": "Decentralized Evidence Exchange",
+      "answer": "Decentralized Evidence Exchange is the second core block on the Trust Infrastructure page. It is positioned for coordinating evidence across suppliers, auditors, partners, and internal teams without losing lineage, permissions, or submission context.",
+      "bullets": [
+        "The page explicitly calls out package lineage across handoffs and versions.",
+        "It also calls out controlled sharing across organizations.",
+        "Submission history preserves actor and timestamp trace."
+      ],
+      "questions": [
+        "what is decentralized evidence exchange",
+        "how do you share evidence across organizations",
+        "how do handoffs and versions stay traceable",
+        "what is package lineage across partners",
+        "how does evidence exchange work"
+      ],
+      "keywords": [
+        "decentralized evidence exchange",
+        "controlled sharing",
+        "package lineage",
+        "handoffs",
+        "partners",
+        "submission history"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Supplier Engagement",
+          "key": "supplier"
+        }
+      ]
+    },
+    {
+      "id": "blockchain-attestation",
+      "topic": "trust",
+      "title": "Blockchain-backed attestation",
+      "answer": "Blockchain is used where it adds tamper-evident attestation and registry value. The page says raw sensitive data stays off-chain, while hash or package attestation patterns provide retrievable proof for audits and disputes.",
+      "bullets": [
+        "The design principle is no raw PII on-chain.",
+        "The page positions blockchain as a trust mechanism, not a standalone crypto pitch.",
+        "This also appears as a roadmap item inside the Sustainability reporting and trust card."
+      ],
+      "questions": [
+        "how do you use blockchain",
+        "what is blockchain-backed attestation",
+        "do you put data on-chain",
+        "how does blockchain fit your services",
+        "what does no raw pii on-chain mean"
+      ],
+      "keywords": [
+        "blockchain",
+        "attestation",
+        "on-chain",
+        "no raw pii",
+        "tamper-evident",
+        "retrievable proof"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "See Sustainability Fit",
+          "key": "sustainability"
+        }
+      ]
+    },
+    {
+      "id": "trust-use-cases",
+      "topic": "trust",
+      "title": "Where Trust Infrastructure applies",
+      "answer": "The Trust Infrastructure page names four application areas: Sustainability and ESG, Supply Chain Evidence, Compliance Submissions, and Certification and Verification. The page explicitly says sustainability is only one application area and that the same trust patterns apply anywhere evidence must be verified, attested, and defended.",
+      "bullets": [
+        "This is the main answer for cross-industry trust-infrastructure fit.",
+        "Supply chain use cases focus on supplier submissions and provenance packages.",
+        "Compliance use cases focus on regulatory, assurance, and internal-control packages."
+      ],
+      "questions": [
+        "where does trust infrastructure apply",
+        "what use cases do you support for trust infrastructure",
+        "is trust infrastructure only for sustainability",
+        "can this be used for compliance submissions",
+        "what industries or workflows fit trust infrastructure"
+      ],
+      "keywords": [
+        "where it applies",
+        "sustainability and esg",
+        "supply chain evidence",
+        "compliance submissions",
+        "certification",
+        "verification"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Trust Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "trust-operating-model",
+      "topic": "trust",
+      "title": "Trust Infrastructure operating model",
+      "answer": "The operating model on the Trust Infrastructure page is Capture, Validate, Review, Attest, and Retrieve and Defend. It starts with collecting evidence from forms, integrations, files, APIs, and partner systems, then moves through deterministic checks, governed human review, attested package creation, and retrieval of full package history when challenged.",
+      "bullets": [
+        "Validate uses deterministic checks and policy rules before reviewer queues.",
+        "Review keeps human-in-the-loop approvals and overrides.",
+        "Retrieve and Defend is about having actor, reason, timestamp, and evidence linkage available on demand."
+      ],
+      "questions": [
+        "what is the trust infrastructure operating model",
+        "how does the trust workflow go from submission to attestation",
+        "what are the steps in trust infrastructure",
+        "how do capture validate review attest work",
+        "what does retrieve and defend mean"
+      ],
+      "keywords": [
+        "capture",
+        "validate",
+        "review",
+        "attest",
+        "retrieve and defend",
+        "operating model"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Trust Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "trust-enterprise-controls",
+      "topic": "trust",
+      "title": "Enterprise controls in Trust Infrastructure",
+      "answer": "The enterprise-controls section on the Trust Infrastructure page focuses on practical adoption inside regulated environments. It highlights privacy-aware design with sensitive records kept off-chain, human review with override reasons, interoperability across partners and auditors, and defensibility through package lineage and traceable verification history.",
+      "bullets": [
+        "The labels on the page are Privacy-aware, Human review, Interoperable, and Defensible.",
+        "This reinforces that the service is designed for enterprise controls rather than speculative blockchain architecture.",
+        "It is one of the strongest trust signals on the site."
+      ],
+      "questions": [
+        "what enterprise controls do you have for trust infrastructure",
+        "how do you handle privacy and human review",
+        "how do you make trust infrastructure practical in regulated environments",
+        "what controls are on the trust page",
+        "how do package lineage and reviewer authority work"
+      ],
+      "keywords": [
+        "privacy-aware",
+        "human review",
+        "interoperable",
+        "defensible",
+        "regulated environments",
+        "package lineage"
+      ],
+      "actions": [
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Trust Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "trust-in-sustainability",
+      "topic": "trust",
+      "title": "How Trust Infrastructure fits Sustainability",
+      "answer": "Trust Infrastructure is both a standalone offer and an embedded capability inside Sustainability. On the Sustainability page it powers verification queues, release gates, audit-ready package lineage, and blockchain-backed attestation. On the Trust page it is described more broadly as an industry-agnostic trust layer.",
+      "bullets": [
+        "This is the bridge between evidence operations and sustainability reporting.",
+        "The sustainability page explicitly says Trust Infrastructure powers verification queues, audit-ready package lineage, and blockchain-backed attestation across the stack.",
+        "The Trust page then generalizes the same pattern to supply chain evidence, compliance submissions, and certification workflows."
+      ],
+      "questions": [
+        "how does trust infrastructure fit sustainability",
+        "is trust infrastructure part of the sustainability platform",
+        "where does evidence trust fit in sustainability",
+        "how do sustainability and trust infrastructure connect",
+        "is blockchain part of the sustainability service"
+      ],
+      "keywords": [
+        "trust in sustainability",
+        "package lineage",
+        "verification queues",
+        "blockchain attestation",
+        "embedded capability",
+        "evidence trust"
+      ],
+      "actions": [
+        {
+          "label": "Explore Sustainability",
+          "key": "sustainability",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Trust Infrastructure",
+          "key": "trust"
+        }
+      ]
+    },
+    {
+      "id": "case-studies-overview",
+      "topic": "cases",
+      "title": "Case studies on the site",
+      "answer": "The site provides four case studies that show measurable sustainability outcomes: Smart Building Retrofit, Manufacturing Demand Optimization, Supply Chain Scope 3 Visibility, and Retail Portfolio Optimization. The case-study page explicitly says these are representative outcomes that vary by industry, baseline, and operational constraints.",
+      "bullets": [
+        "The homepage also highlights three of these cases in summary form.",
+        "The case-study page positions them as proof of measurable sustainability impact.",
+        "The next-step CTA on that page routes visitors to a custom roadmap conversation."
+      ],
+      "questions": [
+        "what case studies do you have",
+        "can you show proof or examples",
+        "what examples are on the site",
+        "what case studies are available",
+        "do you have client examples"
+      ],
+      "keywords": [
+        "case studies",
+        "proof",
+        "examples",
+        "smart building retrofit",
+        "scope 3 visibility",
+        "retail portfolio optimization"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "case-smart-building",
+      "topic": "cases",
+      "title": "Smart Building Retrofit case study",
+      "answer": "The Smart Building Retrofit case started with high HVAC demand and inconsistent occupancy schedules across 12 buildings. The actions were IoT sensor rollout, predictive scheduling, and AI-driven control strategies. The stated outcomes were 25 percent energy reduction and 180 thousand dollars in annual savings over a 4-month timeline.",
+      "bullets": [
+        "The homepage summary describes this as IoT metering and AI control optimizing HVAC schedules across 12 buildings.",
+        "This is the strongest built-environment example on the site.",
+        "It supports the Predictive Energy Optimization and Cloud Infrastructure story."
+      ],
+      "questions": [
+        "tell me about the smart building retrofit case",
+        "what happened in the smart building retrofit case study",
+        "do you have a building optimization example",
+        "what are the results for the hvac case",
+        "what is the 12 buildings case study"
+      ],
+      "keywords": [
+        "smart building retrofit",
+        "smart building case study",
+        "building optimization example",
+        "hvac case",
+        "12 buildings",
+        "iot metering",
+        "predictive scheduling",
+        "180k annual savings"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Predictive Optimization",
+          "key": "aiml"
+        }
+      ]
+    },
+    {
+      "id": "case-manufacturing",
+      "topic": "cases",
+      "title": "Manufacturing Demand Optimization case study",
+      "answer": "The Manufacturing Demand Optimization case started with peak demand charges and underutilized equipment. The actions were load forecasting, demand response, and asset-level efficiency alerts. The stated outcomes were 18 percent energy reduction and a 6-month payback over a 5-month timeline.",
+      "bullets": [
+        "The homepage also summarizes this as predictive scheduling that reduced peak demand and stabilized energy spend.",
+        "This is the clearest manufacturing example on the site.",
+        "It directly supports the value story for Predictive Energy Optimization."
+      ],
+      "questions": [
+        "tell me about the manufacturing demand optimization case",
+        "what happened in the manufacturing demand optimization case study",
+        "what is the manufacturing case study",
+        "do you have a manufacturing example",
+        "what is the peak demand case"
+      ],
+      "keywords": [
+        "manufacturing demand optimization",
+        "manufacturing case study",
+        "peak demand case",
+        "load forecasting",
+        "demand response",
+        "6 month payback",
+        "underutilized equipment"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Predictive Optimization",
+          "key": "aiml"
+        }
+      ]
+    },
+    {
+      "id": "case-scope3",
+      "topic": "cases",
+      "title": "Supply Chain Scope 3 Visibility case study",
+      "answer": "The Supply Chain Scope 3 Visibility case started with limited supplier emissions data and low reporting participation. The actions were supplier engagement workflows, data validation, and scorecards. The stated outcomes were 40 percent reporting gaps removed and 2.3 million dollars in cost optimization over a 6-month timeline.",
+      "bullets": [
+        "The homepage summary says supplier engagement automation drove new data capture and reporting compliance.",
+        "This case supports the Supplier Engagement and Compliance Automation stories.",
+        "It is the clearest Scope 3 proof point on the site."
+      ],
+      "questions": [
+        "tell me about the scope 3 case study",
+        "what happened in the supply chain scope 3 visibility case study",
+        "what is the supply chain scope 3 visibility case",
+        "do you have a supplier data example",
+        "what is the supplier engagement case"
+      ],
+      "keywords": [
+        "scope 3 case study",
+        "supply chain scope 3 visibility",
+        "supplier engagement case",
+        "supplier emissions data",
+        "reporting gaps",
+        "scorecards",
+        "cost optimization"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Supplier Engagement",
+          "key": "supplier"
+        }
+      ]
+    },
+    {
+      "id": "case-retail",
+      "topic": "cases",
+      "title": "Retail Portfolio Optimization case study",
+      "answer": "The Retail Portfolio Optimization case started with energy-spend variance across 80 retail locations. The actions were centralized monitoring, anomaly detection, and automated reporting. The stated outcomes were 15 percent energy reduction and audit-ready reporting in one cycle over a 3-month timeline.",
+      "bullets": [
+        "This is the clearest multi-site retail example on the site.",
+        "It supports the Cloud Infrastructure, Data Assurance, and Sustainability-reporting story.",
+        "The case shows a faster timeline than the other published examples."
+      ],
+      "questions": [
+        "tell me about the retail portfolio optimization case",
+        "what happened in the retail portfolio optimization case study",
+        "what happened in the retail case study",
+        "what is the retail case study",
+        "what happened across 80 retail locations"
+      ],
+      "keywords": [
+        "retail portfolio optimization",
+        "retail case study",
+        "80 retail locations",
+        "energy spend variance",
+        "anomaly detection",
+        "audit-ready reporting in one cycle",
+        "centralized monitoring"
+      ],
+      "actions": [
+        {
+          "label": "View Case Studies",
+          "key": "cases",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Cloud Infrastructure",
+          "key": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "technology-consulting-overview",
+      "topic": "staffing",
+      "title": "Technology Consulting",
+      "answer": "Technology Consulting is the cross-offer entry point for teams that need use-case prioritization, architecture decisions, governance, vendor selection, and rollout sequencing before they commit to an AI build, sustainability program, or trust system.",
+      "bullets": [
+        "It is positioned as technology transformation consulting, not generic IT consulting.",
+        "The consulting pillars are AI strategy and agent adoption, AI-ready workflow and data architecture, cloud and legacy modernization, and governance plus change enablement.",
+        "The output is a practical roadmap that can move into Agentic AI, Sustainability, or Trust Infrastructure delivery."
+      ],
+      "questions": [
+        "what is technology consulting",
+        "do you offer technology consulting",
+        "what does technology consulting cover",
+        "tell me about your consulting services",
+        "what is on the technology consulting page"
+      ],
+      "keywords": [
+        "technology consulting",
+        "consulting services",
+        "transformation consulting",
+        "architecture guidance",
+        "roadmap"
+      ],
+      "actions": [
+        {
+          "label": "Explore Technology Consulting",
+          "key": "staffing",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "consulting-vs-core-offers",
+      "topic": "staffing",
+      "title": "When to start with Technology Consulting",
+      "answer": "Start with Technology Consulting when you are not yet ready to choose the build path. It is the right fit when the organization still needs use-case prioritization, target architecture, governance, vendor decisions, modernization planning, or rollout sequencing. Go directly to a core offer when the delivery scope is already clear.",
+      "bullets": [
+        "Choose consulting first if leadership alignment, operating model, or system direction is still unsettled.",
+        "Choose Agentic AI directly when the main goal is governed automation and agent rollout.",
+        "Choose Sustainability or Trust Infrastructure directly when the operating problem and target workflow are already defined."
+      ],
+      "questions": [
+        "should i start with consulting or agentic ai",
+        "should we start with consulting first",
+        "when should we use technology consulting",
+        "do we need consulting before implementation",
+        "how is consulting different from the core offers"
+      ],
+      "keywords": [
+        "start with consulting",
+        "consulting vs agentic ai",
+        "consulting vs core offers",
+        "before implementation",
+        "which should we start with"
+      ],
+      "actions": [
+        {
+          "label": "Explore Technology Consulting",
+          "key": "staffing",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    },
+    {
+      "id": "consulting-ai-readiness-modernization",
+      "topic": "staffing",
+      "title": "AI readiness and modernization consulting",
+      "answer": "Yes. Technology Consulting covers AI strategy, agent adoption planning, workflow redesign, AI-ready data and integration architecture, and cloud or legacy modernization planning. The goal is to prepare the environment so delivery does not stall later on governance, system boundaries, or data quality.",
+      "bullets": [
+        "This is where TechFist helps define the operating model for AI agents and human oversight.",
+        "It also covers modernization choices across SaaS, on-prem, and hybrid environments.",
+        "The consulting output is meant to reduce delivery risk before a pilot or rollout begins."
+      ],
+      "questions": [
+        "do you help with ai readiness and modernization",
+        "can you help us prepare for ai adoption",
+        "do you do modernization consulting",
+        "can you help with workflow and data architecture",
+        "do you help with cloud and legacy modernization"
+      ],
+      "keywords": [
+        "ai readiness",
+        "agent adoption",
+        "modernization",
+        "workflow architecture",
+        "data architecture",
+        "legacy modernization",
+        "cloud modernization"
+      ],
+      "actions": [
+        {
+          "label": "Explore Technology Consulting",
+          "key": "staffing",
+          "kind": "primary"
+        },
+        {
+          "label": "Explore Agentic AI",
+          "key": "agentic"
+        }
+      ]
+    },
+    {
+      "id": "consulting-vendor-selection-rollout",
+      "topic": "staffing",
+      "title": "Vendor selection and rollout planning",
+      "answer": "Yes. Technology Consulting includes vendor evaluation, integration planning, governance design, rollout sequencing, executive reporting, and change enablement. That work is useful when you need to choose platforms, sequence delivery waves, and define who approves what before execution starts.",
+      "bullets": [
+        "This is positioned as practical transformation planning rather than abstract strategy work.",
+        "It is relevant to AI programs, sustainability operating models, and evidence or attestation-heavy environments.",
+        "The page frames this as a bridge from assessment to implementation, not a disconnected advisory exercise."
+      ],
+      "questions": [
+        "can you help with vendor selection and rollout planning",
+        "do you help choose vendors",
+        "can you help with governance and change management",
+        "do you provide rollout planning",
+        "can you help define an operating model"
+      ],
+      "keywords": [
+        "vendor selection",
+        "rollout planning",
+        "governance",
+        "change management",
+        "operating model",
+        "executive reporting"
+      ],
+      "actions": [
+        {
+          "label": "Explore Technology Consulting",
+          "key": "staffing",
+          "kind": "primary"
+        },
+        {
+          "label": "Book Assessment",
+          "key": "booking"
+        }
+      ]
+    }
+  ]
+}

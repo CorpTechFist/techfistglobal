@@ -1,1211 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords"
-    content="AI Consulting, Cloud Computing, Application Development, QA Testing, IT Staffing, Software Products">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="author" content="TechSolutions">
-  <title>TechSolutions - AI Consulting, Staffing & Products</title>
-  <!--====== Favicon Icon ======-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="supplier engagement, scope 3, supplier carbon network, procurement integration">
+  <meta name="description" content="Supplier engagement platform for Scope 3 visibility, supplier data collection, and collaborative decarbonization workflows.">
+  <meta name="author" content="TechFist Global">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#0f3d2e">
+  <link rel="canonical" href="https://techfistglobal.com/pages/salesforce.html">
+  <title>Supplier Engagement Platform | TechFist Global</title>
+
+  <meta property="og:title" content="Supplier Engagement Platform | TechFist Global">
+  <meta property="og:description" content="Scope 3 supplier engagement, data collection, and collaboration workflows.">
+  <meta property="og:image" content="https://techfistglobal.com/images/hero-green.svg">
+  <meta property="og:image:alt" content="Supplier Engagement Platform">
+  <meta property="og:url" content="https://techfistglobal.com/pages/salesforce.html">
+  <meta property="og:site_name" content="TechFist Global">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Supplier Engagement Platform | TechFist Global">
+  <meta name="twitter:description" content="Scope 3 supplier engagement, data collection, and collaboration workflows.">
+  <meta name="twitter:image" content="https://techfistglobal.com/images/hero-green.svg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "TechFist Global",
+        "url": "https://techfistglobal.com/",
+        "logo": "https://techfistglobal.com/images/tfglogo.png",
+        "email": "contact@techfistglobal.com",
+        "telephone": "+1-604-260-7975"
+      },
+      {
+        "@type": "Service",
+        "name": "Supplier Engagement Platform",
+        "serviceType": "Supplier Engagement",
+        "description": "Supplier engagement platform for Scope 3 visibility, supplier data collection, and collaborative decarbonization workflows.",
+        "provider": {
+          "@type": "Organization",
+          "name": "TechFist Global",
+          "url": "https://techfistglobal.com/"
+        },
+        "url": "https://techfistglobal.com/pages/salesforce.html",
+        "areaServed": "Worldwide"
+      },
+      {
+        "@type": "Service",
+        "name": "Supplier Engagement Platform",
+        "url": "https://techfistglobal.com/pages/salesforce.html",
+        "description": "Supplier engagement platform for Scope 3 visibility, supplier data collection, and collaborative decarbonization workflows.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TechFist Global",
+          "url": "https://techfistglobal.com/"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://techfistglobal.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Sustainability",
+            "item": "https://techfistglobal.com/pages/platform.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Supplier Engagement",
+            "item": "https://techfistglobal.com/pages/salesforce.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/animate.css">
-  <link rel="stylesheet" href="../css/LineIcons.css">
-  <link rel="stylesheet" href="../css/owl.carousel.css">
-  <link rel="stylesheet" href="../css/owl.theme.css">
-  <link rel="stylesheet" href="../css/magnific-popup.css">
-  <link rel="stylesheet" href="../css/nivo-lightbox.css">
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/ai.css">
-
-  <style>
-    .hero-banner {
-      position: relative;
-      height: 100vh;
-      background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 25%, #2d1b69 50%, #4c1d95 75%, #6b21a8 100%);
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-    }
-
-    /* Animated Background Elements */
-    .bg-animation {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      z-index: 1;
-    }
-
-    .floating-element {
-      position: absolute;
-      opacity: 0.1;
-      animation: float 6s ease-in-out infinite;
-    }
-
-    .floating-element:nth-child(1) {
-      top: 10%;
-      left: 10%;
-      animation-delay: 0s;
-    }
-
-    .floating-element:nth-child(2) {
-      top: 20%;
-      right: 15%;
-      animation-delay: 1s;
-    }
-
-    .floating-element:nth-child(3) {
-      bottom: 30%;
-      left: 20%;
-      animation-delay: 2s;
-    }
-
-    .floating-element:nth-child(4) {
-      bottom: 10%;
-      right: 10%;
-      animation-delay: 3s;
-    }
-
-    @keyframes float {
-
-      0%,
-      100% {
-        transform: translateY(0px) rotate(0deg);
-      }
-
-      50% {
-        transform: translateY(-20px) rotate(180deg);
-      }
-    }
-
-    /* Geometric Shapes */
-    .geo-shape {
-      position: absolute;
-      border: 2px solid rgba(255, 255, 255, 0.1);
-      animation: rotate 20s linear infinite;
-    }
-
-    .shape-1 {
-      width: 200px;
-      height: 200px;
-      top: 15%;
-      right: 10%;
-      border-radius: 50%;
-      animation-delay: 0s;
-    }
-
-    .shape-2 {
-      width: 150px;
-      height: 150px;
-      bottom: 20%;
-      left: 15%;
-      transform: rotate(45deg);
-      animation-delay: 5s;
-    }
-
-    .shape-3 {
-      width: 100px;
-      height: 100px;
-      top: 60%;
-      right: 30%;
-      border-radius: 50%;
-      animation-delay: 10s;
-    }
-
-    @keyframes rotate {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    /* Particle System */
-    .particles {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-    }
-
-    .particle {
-      position: absolute;
-      width: 4px;
-      height: 4px;
-      background: rgba(255, 255, 255, 0.6);
-      border-radius: 50%;
-      animation: particle-float 8s infinite ease-in-out;
-    }
-
-    @keyframes particle-float {
-
-      0%,
-      100% {
-        transform: translateY(0px) translateX(0px);
-        opacity: 0.6;
-      }
-
-      50% {
-        transform: translateY(-50px) translateX(30px);
-        opacity: 1;
-      }
-    }
-
-    /* Content Container */
-    .hero-content {
-      position: relative;
-      z-index: 10;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      gap: 60px;
-      height: 100%;
-    }
-
-    .content-left {
-      color: white;
-    }
-
-    .hero-title {
-      font-size: 3.5rem;
-      font-weight: 700;
-      line-height: 1.1;
-      margin-bottom: 30px;
-      margin-top: 130px;
-      background: linear-gradient(135deg, #ffffff, #e0e7ff, #c7d2fe);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      animation: titleGlow 3s ease-in-out infinite alternate;
-    }
-
-    @keyframes titleGlow {
-      0% {
-        filter: brightness(1);
-      }
-
-      100% {
-        filter: brightness(1.2);
-      }
-    }
-
-    .hero-subtitle {
-      font-size: 1.3rem;
-      color: rgba(255, 255, 255, 0.9);
-      margin-bottom: 40px;
-      line-height: 1.6;
-      animation: fadeInUp 1s ease-out 0.5s both;
-    }
-
-    .hero-stats {
-      display: flex;
-      gap: 40px;
-      margin-bottom: 40px;
-      animation: fadeInUp 1s ease-out 0.7s both;
-    }
-
-    .stat-item {
-      text-align: center;
-    }
-
-    .stat-number {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: #ffffff;
-      display: block;
-      line-height: 1;
-    }
-
-    .stat-label {
-      font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.8);
-      margin-top: 5px;
-    }
-
-    .cta-buttons {
-      display: flex;
-      gap: 20px;
-      animation: fadeInUp 1s ease-out 0.9s both;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 50px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      transition: all 0.3s ease;
-      box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: white;
-      padding: 15px 30px;
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      transition: all 0.3s ease;
-      backdrop-filter: blur(10px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border-color: rgba(255, 255, 255, 0.6);
-      transform: translateY(-3px);
-    }
-
-    /* Right Side - Interactive Visual */
-    .content-right {
-      position: relative;
-      height: 600px;
-    }
-
-    .tech-visualization {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    .central-hub {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 150px;
-      height: 150px;
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 0 50px rgba(59, 130, 246, 0.5);
-      animation: pulse 2s ease-in-out infinite;
-    }
-
-    .central-hub i {
-      font-size: 3rem;
-      color: white;
-    }
-
-    @keyframes pulse {
-
-      0%,
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-      }
-
-      50% {
-        transform: translate(-50%, -50%) scale(1.1);
-      }
-    }
-
-    .tech-node {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      backdrop-filter: blur(10px);
-      animation: orbit 10s linear infinite;
-    }
-
-    .tech-node i {
-      font-size: 1.5rem;
-      color: white;
-    }
-
-    .node-1 {
-      top: 10%;
-      left: 20%;
-      animation-delay: 0s;
-    }
-
-    .node-2 {
-      top: 20%;
-      right: 10%;
-      animation-delay: 2s;
-    }
-
-    .node-3 {
-      bottom: 20%;
-      right: 20%;
-      animation-delay: 4s;
-    }
-
-    .node-4 {
-      bottom: 10%;
-      left: 10%;
-      animation-delay: 6s;
-    }
-
-    .node-5 {
-      top: 50%;
-      left: 10%;
-      animation-delay: 8s;
-    }
-
-    .node-6 {
-      top: 50%;
-      right: 10%;
-      animation-delay: 1s;
-    }
-
-    @keyframes orbit {
-
-      0%,
-      100% {
-        transform: scale(1) rotate(0deg);
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-      }
-
-      50% {
-        transform: scale(1.2) rotate(180deg);
-        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
-      }
-    }
-
-    /* Connection Lines */
-    .connection-line {
-      position: absolute;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-      animation: pulse-line 3s ease-in-out infinite;
-      z-index: 1;
-    }
-
-    @keyframes pulse-line {
-
-      0%,
-      100% {
-        opacity: 0.3;
-      }
-
-      50% {
-        opacity: 0.7;
-      }
-    }
-
-    /* Animations */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Responsive Design */
-    @media (max-width: 1024px) {
-      .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 40px;
-      }
-
-      .hero-title {
-        font-size: 2.8rem;
-      }
-
-      .content-right {
-        height: 400px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .hero-title {
-        font-size: 2.2rem;
-      }
-
-      .hero-subtitle {
-        font-size: 1.1rem;
-      }
-
-      .hero-stats {
-        justify-content: center;
-        gap: 30px;
-      }
-
-      .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .content-right {
-        height: 300px;
-      }
-    }
-
-    /* Scroll Indicator */
-    .scroll-indicator {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      color: rgba(255, 255, 255, 0.8);
-      animation: bounce 2s infinite;
-      z-index: 10;
-    }
-
-    @keyframes bounce {
-
-      0%,
-      20%,
-      50%,
-      80%,
-      100% {
-        transform: translateX(-50%) translateY(0);
-      }
-
-      40% {
-        transform: translateX(-50%) translateY(-10px);
-      }
-
-      60% {
-        transform: translateX(-50%) translateY(-5px);
-      }
-    }
-
-    /* Footer Styles */
-    footer {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      position: relative;
-      overflow: hidden;
-    }
-
-    footer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="90" cy="80" r="0.5" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
-      animation: float 20s infinite linear;
-    }
-
-    @keyframes float {
-      0% {
-        transform: translateY(0px) rotate(0deg);
-      }
-
-      100% {
-        transform: translateY(-100px) rotate(360deg);
-      }
-    }
-
-    .footer-content {
-      position: relative;
-      z-index: 1;
-      padding: 80px 0 40px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1.5fr;
-      gap: 40px;
-      margin-bottom: 60px;
-    }
-
-    @media (max-width: 992px) {
-      .footer-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-      }
-    }
-
-    @media (max-width: 576px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
-    }
-
-    .footer-section {
-      color: white;
-    }
-
-    .footer-logo {
-      margin-bottom: 25px;
-    }
-
-    .footer-logo h2 {
-      color: #fff;
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 15px;
-      background: linear-gradient(45deg, #fff, #e0e7ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .footer-description {
-      line-height: 1.7;
-      margin-bottom: 30px;
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 15px;
-    }
-
-    .social-links {
-      display: flex;
-      gap: 15px;
-      list-style: none;
-    }
-
-    .social-links li a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 45px;
-      height: 45px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      border-radius: 50%;
-      transition: all 0.3s ease;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .social-links li a:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .footer-title {
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 25px;
-      color: #fff;
-      position: relative;
-      padding-bottom: 10px;
-    }
-
-    .footer-title::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 40px;
-      height: 3px;
-      background: linear-gradient(45deg, #fff, #e0e7ff);
-      border-radius: 2px;
-    }
-
-    .footer-links {
-      list-style: none;
-    }
-
-    .footer-links li {
-      margin-bottom: 12px;
-    }
-
-    .footer-links li a {
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      transition: all 0.3s ease;
-      font-size: 15px;
-      position: relative;
-      /* padding-left: 20px; */
-    }
-
-    .footer-links li a::before {
-      content: '→';
-      position: absolute;
-      left: 0;
-      opacity: 0;
-      transition: all 0.3s ease;
-    }
-
-    .footer-links li a:hover {
-      color: #fff;
-      padding-left: 25px;
-    }
-
-    .footer-links li a:hover::before {
-      opacity: 1;
-    }
-
-    .contact-info {
-      list-style: none;
-    }
-
-    .contact-info li {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 15px;
-    }
-
-    .contact-info li i {
-      margin-right: 15px;
-      margin-top: 2px;
-      color: #fff;
-      font-size: 16px;
-      min-width: 20px;
-    }
-
-    .contact-info li a {
-      color: rgba(255, 255, 255, 0.9);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .contact-info li a:hover {
-      color: #fff;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 30px 0;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.1);
-    }
-
-    .footer-bottom p {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 14px;
-      margin: 0;
-    }
-
-    /* Hover effects */
-    .footer-section {
-      transition: transform 0.3s ease;
-    }
-
-    .footer-section:hover {
-      transform: translateY(-5px);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .footer-content {
-        padding: 60px 0 30px;
-      }
-
-      .footer-title {
-        font-size: 18px;
-      }
-
-      .footer-logo h2 {
-        font-size: 24px;
-      }
-
-      .social-links {
-        justify-content: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="../css/eco.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Header Section Start -->
-  <header id="home" class="hero-area2">
-    <div class="overlay-light"></div>
-    <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
-      <div class="container">
-        <a href="../index.html" class="navbar-brand">
-          <img src="../images/tfglogo.png" width="90" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#light-featured">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#features2">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#pricing2">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#team2">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html#contact2">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="hero-banner">
-      <!-- Background Animation -->
-      <div class="bg-animation">
-        <div class="floating-element">
-          <i class="fas fa-cube" style="font-size: 60px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-microchip" style="font-size: 80px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-network-wired" style="font-size: 70px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-rocket" style="font-size: 50px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-      </div>
-
-
-
-      <!-- Updated HERO CONTENT CENTERED -->
-      <div class="hero-content" style="text-align: center; justify-content: center; grid-template-columns: 1fr;">
-        <div class="content-left">
-          <h1 class="hero-title" style="font-size: 4rem; margin-top: 80px;">Empower Your Business with Salesforce</h1>
-          <p class="hero-subtitle" style="font-size: 1.25rem; max-width: 700px; margin: 0 auto 30px;">
-            From CRM implementation to cloud solutions and custom integrations, we help you maximize Salesforce
-            potential for improved customer experiences.
-          </p>
-
-          <div class="cta-buttons" style="justify-content: center;">
-            <a href="#contact" class="btn-primary">Get a Free Consultation</a>
-            <a href="../index.html#features2" class="btn-secondary">Explore Services</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Scroll Indicator -->
-      <div class="scroll-indicator">
-        <i class="fas fa-angle-down fa-2x"></i>
-      </div>
-    </div>
-  </header>
-
-
-
-  </header>
-
-
-  <!-- Services Section -->
-  <section class="services-section" id="services">
+  <nav class="navbar navbar-expand-lg fixed-top eco-nav" aria-label="Primary">
     <div class="container">
-      <div class="section-title">
-        <h2>Our Salesforce Services</h2>
-        <p>Expert Salesforce solutions tailored to streamline business operations and drive growth.</p>
-      </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-cloud"></i></div>
-          <h3>Salesforce Implementation</h3>
-          <p>End-to-end Salesforce CRM setup aligned to your unique business needs and goals.</p>
-          <ul class="service-features">
-            <li>CRM configuration and setup</li>
-            <li>Workflow automation</li>
-            <li>Sales & Service Cloud enablement</li>
-            <li>Lightning experience customization</li>
-            <li>User training & documentation</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-tools"></i></div>
-          <h3>Customization & Development</h3>
-          <p>Extend Salesforce capabilities through Apex, Visualforce, and Lightning Web Components.</p>
-          <ul class="service-features">
-            <li>Custom objects & fields</li>
-            <li>Lightning component development</li>
-            <li>Apex triggers and classes</li>
-            <li>Third-party app integration</li>
-            <li>UI enhancements</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-exchange-alt"></i></div>
-          <h3>Data Migration</h3>
-          <p>Seamless and secure migration of your legacy data into Salesforce.</p>
-          <ul class="service-features">
-            <li>Data mapping & transformation</li>
-            <li>Clean-up & de-duplication</li>
-            <li>ETL strategy & execution</li>
-            <li>Validation & reconciliation</li>
-            <li>Compliance and security</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-plug"></i></div>
-          <h3>Integration Services</h3>
-          <p>Connect Salesforce with your existing ERP, marketing, or finance systems.</p>
-          <ul class="service-features">
-            <li>API integrations</li>
-            <li>Middleware solutions</li>
-            <li>Payment gateways & e-commerce</li>
-            <li>Marketing automation tools</li>
-            <li>Real-time data sync</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
-          <h3>Salesforce Analytics</h3>
-          <p>Gain insights with dashboards and reports that drive better business decisions.</p>
-          <ul class="service-features">
-            <li>Einstein Analytics setup</li>
-            <li>Custom reports & dashboards</li>
-            <li>Forecasting tools</li>
-            <li>Data-driven strategy</li>
-            <li>Cross-functional metrics</li>
-          </ul>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-user-shield"></i></div>
-          <h3>Support & Administration</h3>
-          <p>Ongoing support to manage users, troubleshoot issues, and maintain system health.</p>
-          <ul class="service-features">
-            <li>Security settings & profiles</li>
-            <li>Data backups & maintenance</li>
-            <li>Bug fixes & performance tuning</li>
-            <li>User management</li>
-            <li>Release readiness</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="process-section">
-    <div class="container">
-      <div class=" process-step h2">
-        <h2>Our Salesforce Implementation Process</h2>
-        <p>A structured approach to successfully delivering Salesforce solutions with lasting impact.</p>
-      </div>
-      <div class="process-steps">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Requirements Gathering</h3>
-          <p>We collaborate with your stakeholders to understand objectives, pain points, and goals to tailor the ideal
-            Salesforce setup.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>System Design</h3>
-          <p>Define architecture, customizations, workflows, and data models for optimal business process alignment.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Development & Configuration</h3>
-          <p>Implement custom objects, workflows, automations, and third-party integrations tailored to your needs.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Testing & QA</h3>
-          <p>Conduct rigorous testing to ensure reliability, scalability, and alignment with business requirements.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">5</div>
-          <h3>Deployment & Training</h3>
-          <p>Roll out Salesforce to end users with minimal disruption and provide role-specific training and
-            documentation.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">6</div>
-          <h3>Ongoing Support</h3>
-          <p>We offer continuous improvement, performance monitoring, and user support to ensure success post-launch.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technologies Section -->
-  <!-- Technologies Section -->
-  <section class="tech-section">
-    <div class="container">
-      <div class="process-step h2">
-        <h2>Salesforce Ecosystem & Technologies</h2>
-        <p>We utilize leading Salesforce tools and cloud platforms to build scalable, secure, and efficient CRM
-          solutions.</p>
-      </div>
-
-      <div class="tech-grid">
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #00A1E0; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            SF</div>
-          <span>Salesforce CRM</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #FF6F00; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            LC</div>
-          <span>Lightning Components</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #F7931E; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            AP</div>
-          <span>Apex Programming</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #5E5CE6; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            VF</div>
-          <span>Visualforce</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #13AA52; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            FL</div>
-          <span>Flow Builder</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #326CE5; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            EX</div>
-          <span>Experience Cloud</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #FF9900; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            AWS</div>
-          <span>AWS Integration</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #0078D4; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            AZ</div>
-          <span>Azure Integration</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #FA7268; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            CPQ</div>
-          <span>Salesforce CPQ</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #6E6E6E; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            API</div>
-          <span>REST/SOAP APIs</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #009DDC; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            HC</div>
-          <span>Health Cloud</span>
-        </div>
-        <div class="tech-item">
-          <div
-            style="width: 40px; height: 40px; background: #FF3366; border-radius: 8px; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-            MC</div>
-          <span>Marketing Cloud</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Final CTA Section -->
-  <section class="final-cta" id="contact">
-    <div class="container">
-      <h2>Ready to Transform Your Business with Salesforce?</h2>
-      <p>Let's discuss how our Salesforce-certified experts can help streamline your operations and enhance customer
-        engagement.</p>
-      <a href="../index.html#contact2" class="cta-button">Get Started Today</a>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer id="footer-Content2">
-    <div class="footer-content">
-      <div class="container">
-        <div class="footer-grid">
-          <!-- Company Info Section -->
-          <div class="footer-section">
-            <div class="footer-logo">
-              <img src="../images/tfglogo.png" width="100" alt="">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/tfglogo.png" alt="TechFist Global">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEco" aria-controls="navbarEco" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarEco">
+        <ul class="navbar-nav ml-auto align-items-md-center">
+          <li class="nav-mobile-label d-lg-none" role="presentation">Offers</li>
+          <li class="nav-item dropdown eco-dropdown">
+            <a class="nav-link dropdown-toggle" href="platform.html" id="navSustainability" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sustainability
+            </a>
+            <div class="dropdown-menu eco-dropdown-menu" aria-labelledby="navSustainability">
+              <a class="dropdown-item" href="platform.html">Platform Overview</a>
+              <a class="dropdown-item" href="compliance.html">Compliance Automation</a>
+              <a class="dropdown-item" href="qa.html">Data Assurance</a>
+              <a class="dropdown-item" href="cloud.html">Cloud Infrastructure</a>
+              <a class="dropdown-item" href="salesforce.html">Supplier Engagement</a>
             </div>
-            <p class="footer-description">
-              At TechFist, our consulting practice empowers organizations to seamlessly integrate transformative
-              technologies into their business strategies. We specialize in artificial intelligence, cloud computing,
-              application development, and quality assurance-delivering scalable, secure solutions tailored to your
-              unique needs.
-            </p>
-          </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="agentic-ai.html">Agentic AI</a></li>
+          <li class="nav-item"><a class="nav-link" href="trust-infrastructure.html">Trust Infrastructure</a></li>
+          <li class="nav-mobile-label d-lg-none" role="presentation">Proof</li>
+          <li class="nav-item"><a class="nav-link" href="case-studies.html">Case Studies</a></li>
+          <li class="nav-mobile-label d-lg-none" role="presentation">Company</li>
+          <li class="nav-item dropdown eco-dropdown">
+            <a class="nav-link dropdown-toggle" href="../index.html#team" id="navCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Company
+            </a>
+            <div class="dropdown-menu eco-dropdown-menu eco-dropdown-menu-right" aria-labelledby="navCompany">
+              <a class="dropdown-item" href="../index.html#team">Team</a>
+              <a class="dropdown-item" href="../index.html#contact">Contact</a>
+            </div>
+          </li>
+          <li class="nav-item nav-cta"><a class="btn-eco" href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-          <!-- Quick Links Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="../index.html#light-featured">About</a></li>
-              <li><a href="../index.html#features2">Services</a></li>
-              <li><a href="../index.html#mypricing">Pricing</a></li>
-            </ul>
-          </div>
+  <header class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Scope 3</div>
+      <h1 class="hero-title">Supplier Engagement Platform</h1>
+      <p class="hero-subtitle">Engage suppliers, collect verified Scope 3 data, and track collaborative decarbonization progress.</p>
+      <div class="hero-actions">
+        <a class="btn-eco" href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a>
+        <a class="btn-eco-outline" href="platform.html">Explore Sustainability Platform</a>
+      </div>
+    </div>
+  </header>
 
-          <!-- More Links Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">More</h3>
-            <ul class="footer-links">
-              <li><a href="#mycontact">Contact</a></li>
-
-            </ul>
-            <ul class="social-links" style="justify-content: left; padding-bottom: 10px;">
-
-              
-              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/tfglobal/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-            <ul class="social-links" style="justify-content: left;">
-              <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-
-            </ul>
-          </div>
-
-          <!-- Contact Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">Get In Touch</h3>
-            <ul class="contact-info">
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <span>3433 Crowley Dr , Vancouver BC v5r6c5</span>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <a href="tel:+1 604-260-7975">+1 604-260-7975</a>
-              </li>
-              <li>
-                <i class="fas fa-envelope"></i>
-                <a href="mailto: contact@techfistglobal.com "> contact@techfistglobal.com </a>
-              </li>
-            </ul>
-          </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Overview</div>
+        <h2 class="section-title">Bring suppliers into your sustainability program</h2>
+        <p class="section-lead">We design supplier engagement workflows that improve participation, data quality, and shared accountability.</p>
+      </div>
+      <div class="card-grid">
+        <div class="eco-card">
+          <div class="icon">01</div>
+          <h3>Supplier onboarding</h3>
+          <p>Streamlined onboarding journeys and data capture templates.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">02</div>
+          <h3>Data validation</h3>
+          <p>Automated checks to improve accuracy and completeness.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">03</div>
+          <h3>Scorecards</h3>
+          <p>Performance tracking aligned to targets and procurement goals.</p>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-      <div class="container">
-        <p>&copy; 2025 Techfist Global Inc All rights reserved. | Empowering businesses through technology</p>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Capabilities</div>
+        <h2 class="section-title">Scope 3 workflows that scale</h2>
       </div>
+      <ul class="eco-list">
+        <li>Supplier questionnaires and evidence requests</li>
+        <li>Engagement scoring and performance tracking</li>
+        <li>Procurement workflow integration</li>
+        <li>Collaborative reduction planning</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Outcomes</div>
+        <h2 class="section-title">Higher participation, better data</h2>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <strong>Improved coverage</strong>
+          <p>Capture emissions data across more suppliers.</p>
+        </div>
+        <div class="metric-card">
+          <strong>Lower reporting gaps</strong>
+          <p>Validated inputs reduce Scope 3 blind spots.</p>
+        </div>
+        <div class="metric-card">
+          <strong>Shared accountability</strong>
+          <p>Track progress against supplier targets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="../images/tfglogo.png" alt="TechFist Global" style="height: 44px; margin-bottom: 12px;">
+        <p>Supplier engagement services for Scope 3 visibility.</p>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <small><a href="agentic-ai.html">Agentic AI Services</a></small><br>
+        <small><a href="platform.html">Sustainability Platform</a></small><br>
+        <small><a href="trust-infrastructure.html">Trust Infrastructure</a></small><br>
+        <small><a href="staffing.html">Technology Consulting</a></small><br>
+        <small><a href="case-studies.html">Case Studies</a></small>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <small><a href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a></small><br>
+        <small><a href="mailto:contact@techfistglobal.com">contact@techfistglobal.com</a></small>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 24px;">
+      <small>&copy; 2025 TechFist Global Inc. All rights reserved.</small>
     </div>
   </footer>
-  <script>
-    // Add smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }
-      });
-    });
 
-    // Add intersection observer for animations
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
-        }
-      });
-    }, observerOptions);
-
-    // Observe service cards and process steps
-    document.querySelectorAll('.service-card, .process-step').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(30px)';
-      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-      observer.observe(el);
-    });
-
-    // Add parallax effect to hero particles
-    window.addEventListener('scroll', () => {
-      const scrolled = window.pageYOffset;
-      const particles = document.querySelectorAll('.particle');
-      particles.forEach((particle, index) => {
-        const speed = 0.5 + (index * 0.1);
-        particle.style.transform = `translateY(${scrolled * speed}px)`;
-      });
-    });
-  </script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script data-cfasync="false" src="../js/email-decode.min.js"></script>
   <script src="../js/jquery-min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/owl.carousel.js"></script>
-  <script src="../js/jquery.nav.js"></script>
-  <script src="../js/scrolling-nav.js"></script>
-  <script src="../js/jquery.easing.min.js"></script>
-  <script src="../js/nivo-lightbox.js"></script>
-  <script src="../js/jquery.magnific-popup.min.js"></script>
-  <script src="../js/form-validator.min.js"></script>
-  <script src="../js/contact-form-script.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/eco-interactions.js"></script>
 </body>
-
 </html>

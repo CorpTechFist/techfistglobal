@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b7e4c7"/>
+      <stop offset="100%" stop-color="#66d6a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g2)"/>
+  <g fill="#ffffff" opacity="0.15">
+    <rect x="80" y="180" width="420" height="240" rx="8"/>
+    <rect x="520" y="260" width="420" height="180" rx="8"/>
+  </g>
+  <text x="50%" y="50%" font-family="Poppins, Rubik, sans-serif" font-size="36" fill="#0a3" text-anchor="middle">Solar Case Placeholder</text>
+</svg>

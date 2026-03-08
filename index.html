@@ -1,2166 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords"
-    content="AI Consulting, Cloud Computing, Application Development, QA Testing, IT Staffing, Software Products">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="author" content="TechSolutions">
-  <title>TechSolutions - AI Consulting, Staffing & Products</title>
-  <!--====== Favicon Icon ======-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="agentic AI services, sustainability platform, trust infrastructure, decentralized evidence, blockchain attestation, verification workflows">
+  <meta name="description" content="TechFist Global delivers Agentic AI, Sustainability, Trust Infrastructure, and Technology Consulting services for workflow automation, audit-ready operations, and defensible evidence systems.">
+  <meta name="author" content="TechFist Global">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#0f3d2e">
+  <link rel="canonical" href="https://techfistglobal.com/">
+  <title>TechFist Global | Agentic AI, Sustainability, and Trust Infrastructure</title>
+
+  <meta property="og:title" content="TechFist Global | Agentic AI, Sustainability, and Trust Infrastructure">
+  <meta property="og:description" content="Enterprise services for automation, sustainability operations, evidence trust, and transformation consulting.">
+  <meta property="og:image" content="https://techfistglobal.com/images/hero-green.svg">
+  <meta property="og:image:alt" content="TechFist Global | Agentic AI, Sustainability, and Trust Infrastructure">
+  <meta property="og:url" content="https://techfistglobal.com/">
+  <meta property="og:site_name" content="TechFist Global">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TechFist Global | Agentic AI, Sustainability, and Trust Infrastructure">
+  <meta name="twitter:description" content="Enterprise services for automation, sustainability operations, evidence trust, and transformation consulting.">
+  <meta name="twitter:image" content="https://techfistglobal.com/images/hero-green.svg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "TechFist Global",
+        "url": "https://techfistglobal.com/",
+        "logo": "https://techfistglobal.com/images/tfglogo.png",
+        "email": "contact@techfistglobal.com",
+        "telephone": "+1-604-260-7975"
+      },
+      {
+        "@type": "WebSite",
+        "name": "TechFist Global",
+        "url": "https://techfistglobal.com/",
+        "description": "TechFist Global delivers Agentic AI, Sustainability, Trust Infrastructure, and Technology Consulting services for workflow automation, audit-ready operations, and defensible evidence systems.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "TechFist Global",
+          "url": "https://techfistglobal.com/"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "name": "TechFist Global | Agentic AI, Sustainability, and Trust Infrastructure",
+        "url": "https://techfistglobal.com/",
+        "description": "TechFist Global delivers Agentic AI, Sustainability, Trust Infrastructure, and Technology Consulting services for workflow automation, audit-ready operations, and defensible evidence systems.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TechFist Global",
+          "url": "https://techfistglobal.com/"
+        }
+      }
+    ]
+  }
+  </script>
+
   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/LineIcons.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/nivo-lightbox.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
-  <style>
-          .read-more-btn {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      border: none;
-      padding: 8px 20px;
-      border-radius: 25px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
-    }
-
-    .read-more-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-      color: white;
-    }
-
-    .read-more-btn:active {
-      transform: translateY(0);
-    }
-
-         
-        .team-section {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 4rem 2rem;
-            margin: 2rem auto;
-            max-width: 1200px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        }
-
-       
-
-        .section-header::before {
-            content: '';
-            position: absolute;
-            top: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 4px;
-            background: linear-gradient(90deg, #6214f3, #ba41f3);
-            border-radius: 2px;
-        }
-
-        
-        .section-subtitle {
-            font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.8);
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .team-card {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 2.5rem 2rem;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .team-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(90deg, #5c3db7, #6458eb, #f74fd0, #5a45cb);
-            transition: left 0.5s ease;
-        }
-
-        .team-card:hover::before {
-            left: 0;
-        }
-
-        .team-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-        }
-
-        .member-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin: 0 auto 1.5rem;
-            position: relative;
-            overflow: hidden;
-            border: 4px solid transparent;
-            background: linear-gradient(45deg, #f4f4f5, #f6f5f8);
-            padding: 4px;
-            transition: all 0.3s ease;
-        }
-        
-        .member-image {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin: 0 auto 1.5rem;
-            position: relative;
-            overflow: hidden;
-            border: 4px solid transparent;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            padding: 4px;
-            transition: all 0.3s ease;
-        }
-        
-
-        .member-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 50%;
-            transition: transform 0.3s ease;
-        }
-
-        .team-card:hover .member-image {
-            transform: scale(1.05);
-        }
-
-        .team-card:hover .member-image img {
-            transform: scale(1.1);
-        }
-
-        .member-name {
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-
-        .member-role {
-            font-size: 0.95rem;
-            color: #667eea;
-            font-weight: 500;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .member-description {
-            font-size: 0.9rem;
-            color: #7f8c8d;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-
-        .description-text {
-            transition: all 0.3s ease;
-        }
-
-        .description-text.collapsed {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .expand-toggle-btn {
-            background: none;
-            border: none;
-            color: #667eea;
-            font-weight: 500;
-            cursor: pointer;
-            font-size: 0.85rem;
-            text-decoration: underline;
-            padding: 0;
-            margin-top: 0.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .expand-toggle-btn:hover {
-            color: #764ba2;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-        }
-
-        .social-link {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-        }
-
-        .social-link:hover {
-            transform: translateY(-3px) scale(1.1);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-            color: white;
-        }
-
-        .social-link.facebook:hover {
-            background: linear-gradient(45deg, #3b5998, #8b9dc3);
-        }
-
-        .social-link.twitter:hover {
-            background: linear-gradient(45deg, #1da1f2, #0d8bd9);
-        }
-
-        .social-link.instagram:hover {
-            background: linear-gradient(45deg, #e1306c, #fd1d1d, #fccc63);
-        }
-
-        .social-link.behance:hover {
-            background: linear-gradient(45deg, #1769ff, #0057ff);
-        }
-
-        /* Removed floating animation */
-
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .team-section {
-                margin: 1rem;
-                padding: 2rem 1rem;
-            }
-
-            .section-title {
-                font-size: 2.2rem;
-            }
-
-            .team-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .team-card {
-                padding: 2rem 1.5rem;
-            }
-        }
-.read-more {
-  display: inline-block;
-  padding: 6px 14px;
-  background-color: white;   /* or orange if you want filled */
-  color: orange;
-  border: 1px solid orange;
-  border-radius: 20px;       /* round corners */
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-  box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* soft shadow */
-  transition: all 0.3s ease;
-}
-
-.read-more:hover {
-  background-color: orange;
-  color: white;
-  box-shadow: 0px 6px 10px rgba(0,0,0,0.15); /* stronger shadow on hover */
-}
-
-
-    .hero-banner {
-      position: relative;
-      height: 100vh;
-      background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 25%, #2d1b69 50%, #4c1d95 75%, #6b21a8 100%);
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-    }
-
-    /* Animated Background Elements */
-    .bg-animation {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      z-index: 1;
-    }
-
-    .floating-element {
-      position: absolute;
-      opacity: 0.1;
-      animation: float 6s ease-in-out infinite;
-    }
-
-    .floating-element:nth-child(1) {
-      top: 10%;
-      left: 10%;
-      animation-delay: 0s;
-    }
-
-    .floating-element:nth-child(2) {
-      top: 20%;
-      right: 15%;
-      animation-delay: 1s;
-    }
-
-    .floating-element:nth-child(3) {
-      bottom: 30%;
-      left: 20%;
-      animation-delay: 2s;
-    }
-
-    .floating-element:nth-child(4) {
-      bottom: 10%;
-      right: 10%;
-      animation-delay: 3s;
-    }
-
-    @keyframes float {
-
-      0%,
-      100% {
-        transform: translateY(0px) rotate(0deg);
-      }
-
-      50% {
-        transform: translateY(-20px) rotate(180deg);
-      }
-    }
-
-    /* Geometric Shapes */
-    .geo-shape {
-      position: absolute;
-      border: 2px solid rgba(255, 255, 255, 0.1);
-      animation: rotate 20s linear infinite;
-    }
-
-    .shape-1 {
-      width: 200px;
-      height: 200px;
-      top: 15%;
-      right: 10%;
-      border-radius: 50%;
-      animation-delay: 0s;
-    }
-
-    .shape-2 {
-      width: 150px;
-      height: 150px;
-      bottom: 20%;
-      left: 15%;
-      transform: rotate(45deg);
-      animation-delay: 5s;
-    }
-
-    .shape-3 {
-      width: 100px;
-      height: 100px;
-      top: 60%;
-      right: 30%;
-      border-radius: 50%;
-      animation-delay: 10s;
-    }
-
-    @keyframes rotate {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    /* Particle System */
-    .particles {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-    }
-
-    .particle {
-      position: absolute;
-      width: 4px;
-      height: 4px;
-      background: rgba(255, 255, 255, 0.6);
-      border-radius: 50%;
-      animation: particle-float 8s infinite ease-in-out;
-    }
-
-    @keyframes particle-float {
-
-      0%,
-      100% {
-        transform: translateY(0px) translateX(0px);
-        opacity: 0.6;
-      }
-
-      50% {
-        transform: translateY(-50px) translateX(30px);
-        opacity: 1;
-      }
-    }
-
-    /* Content Container */
-    .hero-content {
-      position: relative;
-      z-index: 10;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      gap: 60px;
-      height: 100%;
-    }
-
-    .content-left {
-      color: white;
-    }
-
-    .hero-title {
-      font-size: 3.5rem;
-      font-weight: 700;
-      line-height: 1.1;
-      margin-bottom: 30px;
-      margin-top: 130px;
-      background: linear-gradient(135deg, #ffffff, #e0e7ff, #c7d2fe);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      animation: titleGlow 3s ease-in-out infinite alternate;
-    }
-
-    @keyframes titleGlow {
-      0% {
-        filter: brightness(1);
-      }
-
-      100% {
-        filter: brightness(1.2);
-      }
-    }
-
-    .hero-subtitle {
-      font-size: 1.3rem;
-      color: rgba(255, 255, 255, 0.9);
-      margin-bottom: 40px;
-      line-height: 1.6;
-      animation: fadeInUp 1s ease-out 0.5s both;
-    }
-
-    .hero-stats {
-      display: flex;
-      gap: 40px;
-      margin-bottom: 40px;
-      animation: fadeInUp 1s ease-out 0.7s both;
-    }
-
-    .stat-item {
-      text-align: center;
-    }
-
-    .stat-number {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: #ffffff;
-      display: block;
-      line-height: 1;
-    }
-
-    .stat-label {
-      font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.8);
-      margin-top: 5px;
-    }
-
-    .cta-buttons {
-      display: flex;
-      gap: 20px;
-      animation: fadeInUp 1s ease-out 0.9s both;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 50px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      transition: all 0.3s ease;
-      box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: white;
-      padding: 15px 30px;
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      transition: all 0.3s ease;
-      backdrop-filter: blur(10px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border-color: rgba(255, 255, 255, 0.6);
-      transform: translateY(-3px);
-    }
-
-    /* Right Side - Interactive Visual */
-    .content-right {
-      position: relative;
-      height: 600px;
-    }
-
-    .tech-visualization {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    .central-hub {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 150px;
-      height: 150px;
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 0 50px rgba(59, 130, 246, 0.5);
-      animation: pulse 2s ease-in-out infinite;
-    }
-
-    .central-hub i {
-      font-size: 3rem;
-      color: white;
-    }
-
-    @keyframes pulse {
-
-      0%,
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-      }
-
-      50% {
-        transform: translate(-50%, -50%) scale(1.1);
-      }
-    }
-
-    .tech-node {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      backdrop-filter: blur(10px);
-      animation: orbit 10s linear infinite;
-    }
-
-    .tech-node i {
-      font-size: 1.5rem;
-      color: white;
-    }
-
-    .node-1 {
-      top: 10%;
-      left: 20%;
-      animation-delay: 0s;
-    }
-
-    .node-2 {
-      top: 20%;
-      right: 10%;
-      animation-delay: 2s;
-    }
-
-    .node-3 {
-      bottom: 20%;
-      right: 20%;
-      animation-delay: 4s;
-    }
-
-    .node-4 {
-      bottom: 10%;
-      left: 10%;
-      animation-delay: 6s;
-    }
-
-    .node-5 {
-      top: 50%;
-      left: 10%;
-      animation-delay: 8s;
-    }
-
-    .node-6 {
-      top: 50%;
-      right: 10%;
-      animation-delay: 1s;
-    }
-
-    @keyframes orbit {
-
-      0%,
-      100% {
-        transform: scale(1) rotate(0deg);
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-      }
-
-      50% {
-        transform: scale(1.2) rotate(180deg);
-        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
-      }
-    }
-
-    /* Connection Lines */
-    .connection-line {
-      position: absolute;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-      animation: pulse-line 3s ease-in-out infinite;
-      z-index: 1;
-    }
-
-    @keyframes pulse-line {
-
-      0%,
-      100% {
-        opacity: 0.3;
-      }
-
-      50% {
-        opacity: 0.7;
-      }
-    }
-
-    /* Animations */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Responsive Design */
-    @media (max-width: 1024px) {
-      .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 40px;
-      }
-
-      .hero-title {
-        font-size: 2.8rem;
-      }
-
-      .content-right {
-        height: 400px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .hero-content {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        padding-top: 80px;
-        text-align: center;
-      }
-
-      .hero-title {
-        font-size: 2rem;
-        margin-top: 0;
-        line-height: 1.2;
-      }
-
-      .hero-subtitle {
-        font-size: 1rem;
-        margin-bottom: 30px;
-      }
-
-      .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-      }
-
-      .content-right {
-        display: none;
-        /* Hide complex animation on mobile for speed */
-      }
-
-      .hero-banner {
-        height: auto;
-        padding: 60px 0 80px;
-      }
-
-      .scroll-indicator {
-        bottom: 15px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .floating-element i {
-        font-size: 30px !important;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .particles {
-        display: none;
-      }
-    }
-
-
-    /* Scroll Indicator */
-    .scroll-indicator {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      color: rgba(255, 255, 255, 0.8);
-      animation: bounce 2s infinite;
-      z-index: 10;
-    }
-
-    @keyframes bounce {
-
-      0%,
-      20%,
-      50%,
-      80%,
-      100% {
-        transform: translateX(-50%) translateY(0);
-      }
-
-      40% {
-        transform: translateX(-50%) translateY(-10px);
-      }
-
-      60% {
-        transform: translateX(-50%) translateY(-5px);
-      }
-    }
-
-    /* Footer Styles */
-    footer {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      position: relative;
-      overflow: hidden;
-    }
-
-    footer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="90" cy="80" r="0.5" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
-      animation: float 20s infinite linear;
-    }
-
-    @keyframes float {
-      0% {
-        transform: translateY(0px) rotate(0deg);
-      }
-
-      100% {
-        transform: translateY(-100px) rotate(360deg);
-      }
-    }
-
-    .footer-content {
-      position: relative;
-      z-index: 1;
-      padding: 80px 0 40px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1.5fr;
-      gap: 40px;
-      margin-bottom: 60px;
-    }
-
-    @media (max-width: 992px) {
-      .footer-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-      }
-    }
-
-    @media (max-width: 576px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
-    }
-
-    .footer-section {
-      color: white;
-    }
-
-    .footer-logo {
-      margin-bottom: 25px;
-    }
-
-    .footer-logo h2 {
-      color: #fff;
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 15px;
-      background: linear-gradient(45deg, #fff, #e0e7ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .footer-description {
-      line-height: 1.7;
-      margin-bottom: 30px;
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 15px;
-    }
-
-    .social-links {
-      display: flex;
-      gap: 15px;
-      list-style: none;
-    }
-
-    .social-links li a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 45px;
-      height: 45px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      border-radius: 50%;
-      transition: all 0.3s ease;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .social-links li a:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .footer-title {
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 25px;
-      color: #fff;
-      position: relative;
-      padding-bottom: 10px;
-    }
-
-    .footer-title::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 40px;
-      height: 3px;
-      background: linear-gradient(45deg, #fff, #e0e7ff);
-      border-radius: 2px;
-    }
-
-    .footer-links {
-      list-style: none;
-    }
-
-    .footer-links li {
-      margin-bottom: 12px;
-    }
-
-    .footer-links li a {
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      transition: all 0.3s ease;
-      font-size: 15px;
-      position: relative;
-      /* padding-left: 20px; */
-    }
-
-    .footer-links li a::before {
-      content: '→';
-      position: absolute;
-      left: 0;
-      opacity: 0;
-      transition: all 0.3s ease;
-    }
-
-    .footer-links li a:hover {
-      color: #fff;
-      padding-left: 25px;
-    }
-
-    .footer-links li a:hover::before {
-      opacity: 1;
-    }
-
-    .contact-info {
-      list-style: none;
-    }
-
-    .contact-info li {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 15px;
-    }
-
-    .contact-info li i {
-      margin-right: 15px;
-      margin-top: 2px;
-      color: #fff;
-      font-size: 16px;
-      min-width: 20px;
-    }
-
-    .contact-info li a {
-      color: rgba(255, 255, 255, 0.9);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .contact-info li a:hover {
-      color: #fff;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 30px 0;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.1);
-    }
-
-    .footer-bottom p {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 14px;
-      margin: 0;
-    }
-
-    /* Hover effects */
-    .footer-section {
-      transition: transform 0.3s ease;
-    }
-
-    .footer-section:hover {
-      transform: translateY(-5px);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .footer-content {
-        padding: 60px 0 30px;
-      }
-
-      .footer-title {
-        font-size: 18px;
-      }
-
-      .footer-logo h2 {
-        font-size: 24px;
-      }
-
-      .social-links {
-        justify-content: center;
-      }
-    }
-  </style>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PQKEM42JT9"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PQKEM42JT9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PQKEM42JT9');
-</script>
+  <link rel="stylesheet" href="css/eco.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <nav class="navbar navbar-expand-lg fixed-top eco-nav" aria-label="Primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/tfglogo.png" alt="TechFist Global">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEco" aria-controls="navbarEco" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarEco">
+        <ul class="navbar-nav ml-auto align-items-md-center">
+          <li class="nav-mobile-label d-lg-none" role="presentation">Offers</li>
+          <li class="nav-item dropdown eco-dropdown">
+            <a class="nav-link dropdown-toggle" href="pages/platform.html" id="navSustainability" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sustainability
+            </a>
+            <div class="dropdown-menu eco-dropdown-menu" aria-labelledby="navSustainability">
+              <a class="dropdown-item" href="pages/platform.html">Platform Overview</a>
+              <a class="dropdown-item" href="pages/compliance.html">Compliance Automation</a>
+              <a class="dropdown-item" href="pages/qa.html">Data Assurance</a>
+              <a class="dropdown-item" href="pages/cloud.html">Cloud Infrastructure</a>
+              <a class="dropdown-item" href="pages/salesforce.html">Supplier Engagement</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/agentic-ai.html">Agentic AI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/trust-infrastructure.html">Trust Infrastructure</a>
+          </li>
+          <li class="nav-mobile-label d-lg-none" role="presentation">Proof</li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/case-studies.html">Case Studies</a>
+          </li>
+          <li class="nav-mobile-label d-lg-none" role="presentation">Company</li>
+          <li class="nav-item dropdown eco-dropdown">
+            <a class="nav-link dropdown-toggle" href="#team" id="navCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Company
+            </a>
+            <div class="dropdown-menu eco-dropdown-menu eco-dropdown-menu-right" aria-labelledby="navCompany">
+              <a class="dropdown-item" href="#team">Team</a>
+              <a class="dropdown-item" href="#contact">Contact</a>
+            </div>
+          </li>
+          <li class="nav-item nav-cta">
+            <a class="btn-eco" href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Header Section Start -->
-  <header id="home" class="hero-area2">
-    <div class="overlay-light"></div>
-    <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
-      <div class="container">
-        <a href="index.html" class="navbar-brand"><img src="images/tfglogo.png" width="90" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <!-- <li class="nav-item">
-              <a class="nav-link page-scroll" href="#home">Home</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#light-featured">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#features2">Services</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#pricing2">Pricing</a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link page-scroll" href="#team2">Team</a>
-              </li> 
-            <!-- <li class="nav-item">
-                <a class="nav-link page-scroll" href="#blog2">Insights</a>
-              </li>   -->
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#contact2">Contact</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="btn btn-light-singin" href="#">Get Started</a>
-              </li> -->
-          </ul>
+  <header id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Three Core Offers</div>
+        <h1 class="hero-title">Agentic AI, Sustainability, and Trust Infrastructure for measurable enterprise outcomes</h1>
+        <p class="hero-subtitle">TechFist Global helps organizations automate work with agentic systems, run sustainability programs with the EcoSustainability Platform, and defend evidence with trust infrastructure built for verification and attestation.</p>
+        <div class="hero-actions">
+          <a class="btn-eco" href="pages/agentic-ai.html">Explore Agentic AI</a>
+          <a class="btn-eco-outline" href="pages/platform.html">Explore Sustainability</a>
+          <a class="btn-eco-outline" href="pages/trust-infrastructure.html">Explore Trust Infrastructure</a>
+        </div>
+        <div class="hero-tags">
+          <span class="tag">Agentic AI delivery</span>
+          <span class="tag">EcoSustainability Platform</span>
+          <span class="tag">Trust Infrastructure</span>
+          <span class="tag">Enterprise governance</span>
         </div>
       </div>
-    </nav>
-    <div class="hero-banner">
-      <!-- Background Animation -->
-      <div class="bg-animation">
-        <div class="floating-element">
-          <i class="fas fa-cube" style="font-size: 60px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-microchip" style="font-size: 80px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-network-wired" style="font-size: 70px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-        <div class="floating-element">
-          <i class="fas fa-rocket" style="font-size: 50px; color: rgba(255,255,255,0.1);"></i>
-        </div>
-      </div>
-
-      <!-- Geometric Shapes -->
-      <div class="geo-shape shape-1"></div>
-      <div class="geo-shape shape-2"></div>
-      <div class="geo-shape shape-3"></div>
-
-      <!-- Particle System -->
-      <div class="particles">
-        <div class="particle" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
-        <div class="particle" style="top: 40%; left: 20%; animation-delay: 1s;"></div>
-        <div class="particle" style="top: 60%; left: 30%; animation-delay: 2s;"></div>
-        <div class="particle" style="top: 30%; right: 25%; animation-delay: 3s;"></div>
-        <div class="particle" style="top: 70%; right: 15%; animation-delay: 4s;"></div>
-        <div class="particle" style="bottom: 30%; left: 40%; animation-delay: 5s;"></div>
-      </div>
-
-      <!-- Main Content -->
-      <div class="hero-content">
-        <div class="content-left">
-          <h1 class="hero-title">Transform Your Business With AI & Technology</h1>
-          <p class="hero-subtitle ">
-            Leading provider of AI consulting, cloud solutions, application development,
-            QA services, IT staffing, and innovative in-house products that drive digital transformation.
-            <br>
-          </p>
-
-          <!-- <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">500+</span>
-                        <span class="stat-label">Projects Delivered</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">200+</span>
-                        <span class="stat-label">Happy Clients</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Expert Consultants</span>
-                    </div>
-                </div>
-
-                <div class="cta-buttons">
-                    <a href="#" class="btn-primary">
-                        <i class="fas fa-rocket"></i>
-                        Get Started
-                    </a>
-                    <a href="#" class="btn-secondary">
-                        <i class="fas fa-play"></i>
-                        Watch Demo
-                    </a>
-                </div> -->
-        </div>
-
-        <div class="content-right">
-          <div class="tech-visualization">
-            <!-- Central Hub -->
-            <div class="central-hub">
-              <i class="fas fa-brain"></i>
-            </div>
-
-            <!-- Tech Nodes -->
-            <div class="tech-node node-1">
-              <i class="fas fa-cloud"></i>
-            </div>
-            <div class="tech-node node-2">
-              <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div class="tech-node node-3">
-              <i class="fas fa-database"></i>
-            </div>
-            <div class="tech-node node-4">
-              <i class="fas fa-shield-alt"></i>
-            </div>
-            <div class="tech-node node-5">
-              <i class="fas fa-cogs"></i>
-            </div>
-            <div class="tech-node node-6">
-              <i class="fas fa-chart-line"></i>
-            </div>
-
-            <!-- Connection Lines -->
-            <div class="connection-line" style="top: 30%; left: 35%; width: 30%; transform: rotate(45deg);"></div>
-            <div class="connection-line" style="top: 45%; left: 25%; width: 50%; transform: rotate(0deg);"></div>
-            <div class="connection-line" style="top: 60%; left: 35%; width: 30%; transform: rotate(-45deg);"></div>
+      <div class="hero-panel">
+        <h3>Choose the path that fits your priority</h3>
+        <div class="hero-metrics">
+          <div class="metric-tile">
+            <div class="metric-value">Agentic AI</div>
+            <div class="metric-label">copilots, workflows, orchestration</div>
+          </div>
+          <div class="metric-tile">
+            <div class="metric-value">Sustainability</div>
+            <div class="metric-label">monitoring, optimization, reporting</div>
+          </div>
+          <div class="metric-tile">
+            <div class="metric-value">Trust Infrastructure</div>
+            <div class="metric-label">verification, attestation, lineage</div>
+          </div>
+          <div class="metric-tile">
+            <div class="metric-value">Outcome-led</div>
+            <div class="metric-label">automation, compliance, trust</div>
           </div>
         </div>
+        <p class="notice">Each offer stands alone and can work together when automation, operations, and evidence trust need to move as one program.</p>
       </div>
-
-      <!-- Scroll Indicator -->
-      <div class="scroll-indicator">
-        <a href="#features2" class="page-scroll">
-          <i class="fas fa-chevron-down" style="font-size: 1.5rem; color: white;"></i>
-        </a>
-      </div>
-
     </div>
   </header>
 
-
-  <!--   Light Featured Section area start -->
-  <section id="light-featured">
-    <div class="container">
-
-      <!--  Start Row -->
-      <div class="row">
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-12">
-          <!-- Light Featured Item -->
-          <!-- <div class="light-feature-item" data-aos="fade-right" data-aos-delay="0">
-            <div class="light-feature-icon float-left">
-              <i class="lni-cog"></i>
-            </div>
-            <div class="light-feature-info float-left">
-
-              <h4>AI Consulting</h4>
-
-              <p>Leverage artificial intelligence to <br> transform your business processes</p>
-            </div>
-          </div> -->
-
-          <!-- Light Featured Item -->
-          <a href="pages/staffing.html" class="light-feature-link">
-            <div class="light-feature-item" data-aos="fade-right" data-aos-delay="5">
-              <div class="light-feature-icon float-left">
-                <i class="lni-brush"></i>
-              </div>
-              <div class="light-feature-info float-left">
-                <h4>IT Staffing</h4>
-                <p>Access top-tier technical talent <br> for your projects and teams</p>
-              </div>
-            </div>
-          </a>
-
-
-          <!-- Light Featured Item -->
-          <!-- Light Featured Item -->
-          <a href="pages/inhouse.html" class="light-feature-item" data-aos="fade-right" data-aos-delay="100"
-            style="display: block; color: inherit; text-decoration: none;">
-            <div class="light-feature-icon float-left">
-              <i class="lni-licencse"></i>
-            </div>
-            <div class="light-feature-info float-left">
-              <h4>In-house Products</h4>
-              <p>Innovative software solutions <br> built for modern businesses</p>
-            </div>
-          </a>
-
-          <!-- Light Featured Item -->
-        </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-1"> </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-12 pr-0">
-          <div class="right-feature-info" id="myabout">
-            <h3 data-aos="fade-up">Your Technology Partner for <br>Digital Transformation</h3>
-            <p data-aos="fade-up">We specialize in three core business lines that drive technological innovation and
-              business growth. Our
-              consulting services cover AI implementation, cloud computing solutions, application development, and
-              comprehensive QA testing. Our staffing division connects you with exceptional technical talent, while our
-              in-house products deliver cutting-edge software solutions tailored to modern business
-              needs.<br><br>Whether you need strategic technology guidance, skilled professionals, or ready-to-deploy
-              solutions, we have the expertise and resources to accelerate your success.</p>
-            <a href="#features2" class="btn btn-light-bg page-scroll" data-aos="fade-up">Explore Our Services</a>
-          </div>
-        </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-1"> </div>
-
-      </div>
-      <!--  End Row -->
+  <section class="proof-strip">
+    <div class="container proof-grid">
+      <div class="proof-item"><strong>Agentic AI</strong>Automate research, decisions, and execution</div>
+      <div class="proof-item"><strong>Sustainability</strong>Measure emissions, optimize assets, and report</div>
+      <div class="proof-item"><strong>Trust Infrastructure</strong>Verify, attest, and defend evidence across industries</div>
+      <div class="proof-item"><strong>Integrated delivery</strong>Connect automation, operations, and trust as programs mature</div>
     </div>
   </section>
-  <!--   Light Featured Section area end -->
 
-
-
-  <!--  Downlaod Application Section area start -->
-  <!--section id="download-app">
+  <section class="section section-alt">
     <div class="container">
-
-  <div class="row">
-        
-  <div class="col-lg-6 col-md-12">
-          <div class="download-info">
-            <h3>Access Our Solutions <br> Across Platforms</h3>
-            <p>Our comprehensive suite of business solutions and consulting services are designed to integrate
-              seamlessly with your existing infrastructure. From cloud-based applications to mobile-first solutions, we
-              ensure your technology works wherever your business operates. Connect with our team through multiple
-              channels and access our project management tools and client portals.</p>
-            <div class="downlaod-btn">
-              <a href="" class="btn play-store"><i class="lni-android-original"></i>Download <br> <span>Android
-                  App</span></a>
-              <a href="" class="btn ios-store"><i class="lni-apple"></i>Download <br> <span>iOS App</span></a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="download-statatics">
-                <h3>500+</h3>
-                <p>Projects Delivered</p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="download-statatics">
-                <h3>200+</h3>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="download-statatics">
-                <h3>50+</h3>
-                <p>Expert Consultants</p>
-              </div>
-            </div>
-
+      <div class="section-head">
+        <div class="eyebrow">Core Offers</div>
+        <h2 class="section-title">Start with the offer that matches your mandate</h2>
+        <p class="section-lead">Some teams begin with automation, others with sustainability execution, and others with trust systems for evidence and attestation. Each offer stands on its own and can connect later.</p>
+      </div>
+      <div class="card-grid">
+        <div class="eco-card">
+          <div class="icon">AI</div>
+          <h3>Agentic AI services</h3>
+          <p>Design agentic systems, multi-agent workflows, and copilots that automate real work across enterprise tools.</p>
+          <ul class="eco-list">
+            <li>Workflow design and orchestration</li>
+            <li>AI copilots and agent execution</li>
+            <li>Governance and human oversight</li>
+          </ul>
+          <div class="hero-actions" style="margin-top: 24px;">
+            <a class="btn-eco" href="pages/agentic-ai.html">Explore Agentic AI</a>
           </div>
         </div>
-        
-  
-  <div class="col-lg-1">
-
-  </div>
-   
-  
-  <div class="col-lg-5 col-md-12">
-          <div class="mokup-thumb">
-            <img src="images/mockup2.png" class="img-fluid" alt="">
+        <div class="eco-card">
+          <div class="icon">S</div>
+          <h3>Sustainability platform</h3>
+          <p>Use the EcoSustainability Platform to monitor baselines, optimize operations, and produce audit-ready reporting.</p>
+          <ul class="eco-list">
+            <li>Real-time monitoring and baselines</li>
+            <li>Predictive optimization workflows</li>
+            <li>Compliance and disclosure support</li>
+          </ul>
+          <div class="hero-actions" style="margin-top: 24px;">
+            <a class="btn-eco-outline" href="pages/platform.html">Explore Sustainability</a>
           </div>
         </div>
-         
-
-  </div>
-   
-  </div>
-  </section>
-  <  Downlaod Application Section area end -->
-
-
-  <!-- Cool Fetatures Section Start -->
-  <section id="features2" class="section">
-    <div class="container">
-      <!-- Title -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="features-text section-header text-center">
-            <h2 class="section-title">Our Core Business Services</h2>
-            <div class="desc-text">
-              <p>Comprehensive technology solutions across consulting, staffing, <br> and innovative product
-                development.</p>
-            </div>
+        <div class="eco-card">
+          <div class="icon">TI</div>
+          <h3>Trust Infrastructure</h3>
+          <p>Build trust systems for decentralized evidence exchange, blockchain-backed attestation, and defensible verification workflows across industries.</p>
+          <ul class="eco-list">
+            <li>Verification workflows and reason-code controls</li>
+            <li>Package lineage and evidence exchange</li>
+            <li>Blockchain attestation and audit traceability</li>
+          </ul>
+          <div class="hero-actions" style="margin-top: 24px;">
+            <a class="btn-eco-outline" href="pages/trust-infrastructure.html">Explore Trust Infrastructure</a>
           </div>
         </div>
       </div>
-
-      <!-- Features -->
-      <div class="row featured-bg">
-        <!-- AI & Machine Learning -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item featured-border1">
-            <div class="feature-icon float-left">
-              <i class="bx bx-brain"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>AI & Machine Learning</h4>
-              <p>Transform your business with intelligent automation, predictive analytics, and custom AI solutions
-                tailored to your industry needs.</p>
-              <br> <a class="read-more-btn" href="pages/ai-ml.html">Read More</a>
-            </div>
+      <div class="consulting-callout">
+        <div class="consulting-callout-head">
+          <div>
+            <div class="eyebrow">Supporting Offer</div>
+            <h3>Technology Consulting</h3>
+            <p>Use this path when you need roadmap, architecture, governance, and rollout guidance before committing to an AI build, sustainability program, or trust system.</p>
+          </div>
+          <div class="hero-actions" style="margin-bottom: 0;">
+            <a class="btn-eco" href="pages/staffing.html">Explore Technology Consulting</a>
+            <a class="btn-eco-outline" href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a>
           </div>
         </div>
-
-        <!-- Salesforce -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item featured-border2">
-            <div class="feature-icon float-left">
-              <i class="bx bx-cloud-upload"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Salesforce Solutions for Insurance</h4>
-              <p>Enhance underwriting speed, strengthen broker relationships, and optimize operations with expert
-                Salesforce services built for insurers.</p>
-              <br> <a class="read-more-btn" href="pages/salesforce.html">Read More</a>
-            </div>
+        <div class="consulting-track-grid">
+          <div class="metric-card">
+            <strong>AI Strategy &amp; Agent Adoption</strong>
+            <p>Prioritize use cases, define operating models, and sequence agent rollout with human oversight.</p>
           </div>
-        </div>
-
-        <!-- Cloud -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item featured-border1">
-            <div class="feature-icon float-left">
-              <i class="bx bx-cloud"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Cloud Computing Solutions</h4>
-              <p>Migrate, optimize, and scale your infrastructure with our comprehensive cloud services across AWS and
-                Azure.</p>
-              <br> <a class="read-more-btn" href="pages/cloud.html">Read More</a>
-            </div>
+          <div class="metric-card">
+            <strong>Workflow, Data &amp; AI-Ready Architecture</strong>
+            <p>Shape data, integration, and workflow foundations so AI and operational systems can scale safely.</p>
           </div>
-        </div>
-
-        <!-- App Dev -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item featured-border2">
-            <div class="feature-icon float-left">
-              <i class="bx bx-code-alt"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Application Development</h4>
-              <p>Custom web and mobile applications built with modern technologies, focusing on scalability, security,
-                and exceptional user experience.</p>
-              <br> <a class="read-more-btn" href="pages/app-dev.html">Read More</a>
-            </div>
+          <div class="metric-card">
+            <strong>Cloud &amp; Legacy Modernization</strong>
+            <p>Rationalize platforms, define migration waves, and balance SaaS, on-prem, and hybrid delivery.</p>
           </div>
-        </div>
-
-        <!-- Quality Assurance -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item featured-border3">
-            <div class="feature-icon float-left">
-              <i class="bx bx-shield-quarter"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Quality Assurance</h4>
-              <p>Comprehensive testing services including automated testing, performance testing, and security audits to
-                ensure reliable software delivery.</p>
-              <br> <a class="read-more-btn" href="pages/qa.html">Read More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Automation Services -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <div class="feature-item">
-            <div class="feature-icon float-left">
-              <i class="bx bx-cog"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Automation Services</h4>
-              <p>We connect businesses with pre-vetted technical professionals for all roles with a strong focus on
-                automation and system optimization.<br><br></p>
-              <br> <a class="read-more-btn" href="pages/automation.html">Read More</a>
-            </div>
+          <div class="metric-card">
+            <strong>Governance, Operating Model &amp; Change Enablement</strong>
+            <p>Set approval models, vendor decisions, and adoption plans that hold once execution begins.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Cool Fetatures Section End -->
-
-
-  <!-- Awesome Screens Section Start -->
-  <!--section id="screenshots" class="section">
-    <div class="container-fluid"> comment end
-      
-  <div class="row">
-        <div class="col-lg-12">
-          <div class="team-text section-header text-center">
-            <div>
-              <h2 class="section-title">Our Work Portfolio</h2>
-              <div class="desc-text">
-                <p>Showcasing successful projects across consulting, staffing solutions,</p>
-                <p>and innovative product development.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-     
-  <div class="row pl-70 pr-70">
-    <div class="touch-slider owl-carousel">
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/01_3.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/02_1.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/05.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/01_3.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/02_1.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/05.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/01_3.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/02_1.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/05.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/01_3.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/02_1.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/04_2.jpg" alt="">
-        </div>
-      </div>
-      <div class="item">
-        <div class="screenshot-thumb">
-          <img class="img-fluid" src="images/05.jpg" alt="">
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-  </div>
-  </section>
-  <!-Awesome Screens Section End -->
-
-
-  <!-- Our Pricing Plane Section Start -->
-  <section id="pricing2" class="section">
+  <section id="agentic-ai" class="section">
     <div class="container">
-      <!-- Start Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="pricing-text section-header text-center">
-            <div>
-              <h2 class="section-title" id="mypricing">Service Packages</h2>
-              <div class="desc-text">
-                <p>Flexible pricing models designed to meet your business needs</p>
-                <p>across consulting, staffing, and product solutions.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <div class="section-head">
+        <div class="eyebrow">Agentic AI Offer</div>
+        <h2 class="section-title">Build agentic AI products and projects</h2>
+        <p class="section-lead">We design, deploy, and govern agentic AI systems that automate workflows, improve decision cycles, and drive measurable outcomes.</p>
       </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <!-- Start Row -->
-      <div class="row pricing-tables justify-content-center">
-
-        <!--  Start Col -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center" data-aos="fade-up">
-            <div class="pricing-details">
-              <h3>Basic</h3>
-              <h1><span>$</span>2,500</h1>
-              <ul>
-
-                <li>Technology Assessment</li>
-                <li>Strategic Roadmap</li>
-                <li>30-day Support</li>
-                <li>Documentation</li>
-                <li>‎ </li>
-
-              </ul>
-
-
-            </div>
-            <div class="plan-button">
-
-
-              <a href="#contact2" class="btn btn-border page-scroll">Get Started</a>
-            </div>
-          </div>
+      <div class="card-grid">
+        <div class="eco-card">
+          <div class="icon">01</div>
+          <h3>Agentic workflow design</h3>
+          <p>Map high-impact processes and design AI agents that execute tasks end-to-end.</p>
         </div>
-        <!--  End Col -->
-        <!--  Start Col -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center" data-aos="fade-up">
-            <div class="pricing-details">
-              <h3>Standard</h3>
-              <h1><span>$</span>5,000</h1>
-              <ul>
-                <li>Full Project Management</li>
-                <li>Custom Development</li>
-                <li>Cloud Integration</li>
-                <li>QA & Testing</li>
-                <li>90-day Support</li>
-
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#contact2" class="btn btn-common page-scroll">Get Started</a>
-            </div>
-          </div>
+        <div class="eco-card">
+          <div class="icon">02</div>
+          <h3>Multi-agent orchestration</h3>
+          <p>Coordinate specialized agents for research, analysis, and operational execution.</p>
         </div>
-        <!--  End Col -->
-        <!--  Start Col -->
-        <!-- <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center" data-aos="fade-up">
-            <div class="pricing-details">
-              <h3>Premium</h3>
-              <h1><span>$</span>7,500</h1>
-              <ul>
-                <li>End-to-end Solutions</li>
-                <li>AI/ML Implementation</li>
-                <li>Dedicated Team</li>
-                <li>24/7 Support</li>
-                <li>Ongoing Maintenance</li>
-
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#contact2" class="btn btn-border page-scroll">Contact Sales</a>
-            </div>
-          </div>
-        </div> -->
-        <!--  End Col -->
-
+        <div class="eco-card">
+          <div class="icon">03</div>
+          <h3>Autonomous copilots</h3>
+          <p>Deploy copilots that assist teams with recommendations, approvals, and execution.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">04</div>
+          <h3>Governance and safety</h3>
+          <p>Guardrails, monitoring, and human-in-the-loop controls for safe AI adoption.</p>
+        </div>
       </div>
-      <!-- End Row -->
     </div>
   </section>
-  <!-- Our Pricing Plane Section End -->
 
-
-  <!-- Client testimonials section Start -->
-  <!-- <section id="client-talk" class="section">
+  <section id="pillars" class="section">
     <div class="container">
-     
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="team-text section-header text-center">
-            <div>
-              <h2 class="section-title">What Our Clients Say</h2>
-              <div class="desc-text">
-                <p>Hear from businesses that have transformed their operations</p>
-                <p>with our consulting, staffing, and product solutions.</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <div class="section-head">
+        <div class="eyebrow">Sustainability Platform</div>
+        <h2 class="section-title">Measure. Optimize. Report.</h2>
+        <p class="section-lead">EcoSustainability Platform gives sustainability teams one operating layer for live baselines, operational optimization, and audit-ready reporting.</p>
       </div>
-     
-      <div class="row">
-        
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="client-words" data-aos="fade-up">
-            <p>"Their AI consulting transformed our business processes. We saw 40% efficiency gains within 3 months of
-              implementation. The team's expertise in machine learning and automation was exceptional."</p>
-            <h5>Sarah Johnson <br><span>-CTO, TechCorp Industries</span></h5>
-            <span class="qoute-icon"><i class="lni-quotation"></i></span>
-          </div>
+      <div class="card-grid">
+        <div class="eco-card">
+          <div class="icon">M</div>
+          <h3>Measure in real time</h3>
+          <p>Connect IoT devices, EMS/BMS, and utility data to establish reliable baselines across every facility.</p>
+          <ul class="eco-list">
+            <li>Asset-level emissions visibility</li>
+            <li>Data quality checks and alerts</li>
+            <li>Unified carbon accounting</li>
+          </ul>
         </div>
-        
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="client-words" data-aos="fade-up">
-            <p>"Finding qualified developers was always a challenge until we partnered with them. Their staffing
-              solutions provided us with top-tier talent that perfectly matched our project requirements."<br></p>
-            <h5>Michael Chen <br><span>-VP Engineering, Startup Technocrats</span></h5>
-            <span class="qoute-icon"><i class="lni-quotation"></i></span>
-          </div>
+        <div class="eco-card">
+          <div class="icon">O</div>
+          <h3>Optimize with AI</h3>
+          <p>Predictive models pinpoint energy waste and generate operational schedules that reduce peak load.</p>
+          <ul class="eco-list">
+            <li>Load forecasting and control</li>
+            <li>Fault detection and diagnostics</li>
+            <li>ROI simulation before rollout</li>
+          </ul>
         </div>
-       
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="client-words" data-aos="fade-up">
-            <p>"Their in-house project management product revolutionized how we track and deliver client work. The
-              cloud-based solution integrates seamlessly with our existing workflow."</p>
-            <h5>Emma Rodriguez <br><span>-Operations Manager, Global Solutions</span></h5>
-            <span class="qoute-icon"><i class="lni-quotation"></i></span>
-          </div>
+        <div class="eco-card">
+          <div class="icon">R</div>
+          <h3>Report with confidence</h3>
+          <p>Automated compliance mapping and audit trails simplify reporting to stakeholders and regulators.</p>
+          <ul class="eco-list">
+            <li>CSRD and SEC workflows</li>
+            <li>SBTi alignment support</li>
+            <li>Supplier engagement automation</li>
+          </ul>
         </div>
-      
-
-
       </div>
-      
-    </div>
-  </section> -->
-  <!-- Client testimonials section End -->
-
-
-  <!-- Team section Start -->
- 
-  
-
-
-
-<!-- Team section Start -->
-  <div class="team-section">
-        <div class="section-header">
-            <h2 class="section-title">Our Amazing Team</h2>
-            <p style="color: #0a0e27;" class="section-subtitle">
-             Discover the visionary leaders and industry experts driving innovation and transforming possibilities into reality
-            </p>
-        </div>
-
-        <div class="team-grid" id="team2">
-            <!-- Team Member 1 -->
-            <div class="team-card">
-                <div class="member-image">
-                    <img src="images/Tonya Jones-Smith.PNG" alt="Tonya Jones-Smith">
-                </div>
-                <h4 class="member-name">Tonya Jones-Smith</h4>
-                <p class="member-role">Advisory Board Member</p>
-                <div class="member-description">
-                    <div class="description-text collapsed" id="desc1">
-                        Tonya Jones-Smith is a computer scientist and software engineering leader with over 20 years of expertise in quality assurance and project management, and the founder of We All Matter Alliance—a nonprofit dedicated to empowering trauma survivors and marginalized communities through integrative herbal and alternative therapy. She has designed and implemented end-to-end QA frameworks for enterprise applications, built automated test pipelines that reduced defect rates by over 70%, and led cross-functional Agile teams to deliver scalable, reliable software on accelerated release cadences. Leveraging her project management acumen, Tonya orchestrates partnerships across academic and healthcare institutions, and deploys rigorous monitoring and evaluation systems to ensure evidence-based program delivery and sustainable impact.
-                    </div>
-                    <button class="expand-toggle-btn" onclick="toggleDescription('desc1', this)">Read More</button>
-                </div>
-                <!-- <div class="social-links">
-                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link behance"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-            </div>
-
-            <!-- Team Member 2 -->
-            <div class="team-card" >
-                <div class="member-image">
-                    <img src="images/NancyPaul.png" alt="Nancy Paul">
-                </div>
-                <h4 class="member-name">Nancy Paul</h4>
-                <p class="member-role">Advisory Board Member</p>
-                <div class="member-description">
-                    <div class="description-text collapsed" id="desc2">
-                        As a Senior Delivery Manager with extensive experience in leading complex enterprise implementations, Nancy specializes in optimizing processes, eliminating inefficiencies, and fostering transparency in project delivery. Drawing on expertise in Lean Six Sigma, Agile methodologies, and Release Train Engineering, she helps organizations streamline operations, enhance productivity, and tackle complex business challenges with precision.
-                    </div>
-                    <button class="expand-toggle-btn" onclick="toggleDescription('desc2', this)">Read More</button>
-                </div>
-                <!-- <div class="social-links">
-                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link behance"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-            </div>
-
-            <!-- Team Member 3 -->
-            <div class="team-card">
-                <div class="member-image">
-                    <img src="images/aisha.jpg" alt="aisha">
-                </div>
-                <h4 class="member-name">Aisha</h4>
-                <p class="member-role">Co Founder</p>
-                <div class="member-description">
-                    <div class="description-text collapsed" id="desc3">
-                       Aisha brings vision and leadership to the Techfist’s global mission of building transformative technology solutions. With expertise in artificial intelligence, machine learning, and systems design, she focuses on creating intelligent products that address real-world challenges and deliver measurable impact.
-
-At Techfist Global , she plays a central role in shaping innovation strategy, guiding product development, and fostering collaborations that merge technical depth with forward-looking vision. Her work reflects a commitment to harnessing technology as a force for efficiency, connectivity, and positive change.
-
-Through her leadership, Techfist Global is advancing AI-powered applications that redefine how people live, work, and interact with technology.
-                    </div>
-                    <button class="expand-toggle-btn" onclick="toggleDescription('desc3', this)">Read More</button>
-                </div>
-                <!-- <div class="social-links">
-                    <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link behance"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-            </div> 
-
-            <!-- Team Member 4 - Removed -->
-        </div>
-    </div>
-
-<!-- Team section End -->
-
-
-  <section id="contact2" class="section">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="contact-text section-header text-center">
-            <div>
-              <h2 class="section-title" id="mycontact">Get In Touch</h2>
-              <div class="desc-text">
-                <p>The first step to a solution is a conversation. Reach out.</p>
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row">
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-12 col-xs-12">
-          <form id="contactForm">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required=""
-                    data-error="Please enter your name">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="title" required>
-
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" required=""
-                    data-error="Please enter your Email">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Phone" id="phone" class="form-control" name="phone" required=""
-                    data-error="Please enter your phone">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" placeholder="Write Message" rows="4"
-                    data-error="Write your message" required=""></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-                <div class="submit-button">
-                  <button class="btn btn-common" id="submit" type="submit">Submit</button>
-                  <div id="msgSubmit" class="h3 hidden"></div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-1">
-
-        </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-12 col-xs-12">
-          <div class="contact-img">
-            <img src="images/02.png" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <!-- Start Col -->
-        <div class="col-lg-1">
-        </div>
-
-
-      </div>
-      <!-- End Row -->
     </div>
   </section>
-  <!-- Contact Us Section End -->
 
-  <!-- Footer Section -->
-  <footer id="footer-Content2">
-    <div class="footer-content">
-      <div class="container">
-        <div class="footer-grid">
-          <!-- Company Info Section -->
-          <div class="footer-section">
-            <div class="footer-logo">
-              <img src="images/tfglogo.png" width="100" alt="">
-            </div>
-            <p class="footer-description">
-              At TechFist, our consulting practice empowers organizations to seamlessly integrate transformative
-              technologies into their business strategies. We specialize in artificial intelligence, cloud computing,
-              application development, and quality assurance-delivering scalable, secure solutions tailored to your
-              unique needs.
-            </p>
-          </div>
-
-          <!-- Quick Links Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#myabout">About</a></li>
-              <li><a href="#features2">Services</a></li>
-              <li><a href="#mypricing">Pricing</a></li>
-            </ul>
-          </div>
-
-          <!-- More Links Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">More</h3>
-            <ul class="footer-links">
-              <li><a href="#mycontact">Contact</a></li>
-
-            </ul>
-            <ul class="social-links" style="justify-content: left; padding-bottom: 10px;">
-
-              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/tfglobal/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-            <ul class="social-links" style="justify-content: left;">
-              <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-
-            </ul>
-          </div>
-
-          <!-- Contact Section -->
-          <div class="footer-section">
-            <h3 class="footer-title">Get In Touch</h3>
-            <ul class="contact-info">
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <span>3433 Crowley Dr , Vancouver BC v5r6c5</span>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <!--a href="tel:+16049088101">+1 (604) 908-8101</a-->
-                <a href="tel:+1 604-260-7975">+1 604-260-7975</a>
-              </li>
-              <li>
-                <i class="fas fa-envelope"></i>
-                <!--a href="mailto:corptechfist@gmail.com">corptechfist@gmail.com</a-->
-                <a href="mailto:contact@techfistglobal.com ">contact@techfistglobal.com </a>
-              </li>
-            </ul>
-          </div>
+  <section id="modules" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Platform Modules</div>
+        <h2 class="section-title">Sustainability modules tailored to every client</h2>
+        <p class="section-lead">We customize every module to match your operational reality, industry requirements, and reporting obligations.</p>
+      </div>
+      <div class="card-grid">
+        <div class="eco-card">
+          <div class="icon">01</div>
+          <h3>Real-time monitoring</h3>
+          <p>Unified dashboards for energy use, carbon intensity, and equipment performance.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">02</div>
+          <h3>Predictive optimization</h3>
+          <p>AI models that optimize schedules, reduce peaks, and improve asset efficiency.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">03</div>
+          <h3>Supplier carbon network</h3>
+          <p>Scope 3 data collection, validation, and supplier engagement workflows.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">04</div>
+          <h3>Compliance automation</h3>
+          <p>Auto-mapped disclosures with audit trails for regulatory reporting.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">05</div>
+          <h3>Carbon and cost dashboards</h3>
+          <p>Executive KPIs that connect emissions impact to financial ROI.</p>
+        </div>
+        <div class="eco-card">
+          <div class="icon">06</div>
+          <h3>Custom sustainability services</h3>
+          <p>We build tailored workflows, integrations, and analytics per customer.</p>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-      <div class="container">
-        <p>&copy; 2025 Techfist Global Inc All rights reserved. | Empowering businesses through technology</p>
+  <section id="outcomes" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Outcomes</div>
+        <h2 class="section-title">Measurable results, not just reports</h2>
+        <p class="section-lead">We focus on operational impact and verified emissions reductions.</p>
       </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <strong>15-25%</strong>
+          <p>Energy reduction range in optimized facilities.</p>
+        </div>
+        <div class="metric-card">
+          <strong>5-8 months</strong>
+          <p>Typical payback range based on operational changes.</p>
+        </div>
+        <div class="metric-card">
+          <strong>30-40%</strong>
+          <p>Scope 3 visibility improvement through supplier data workflows.</p>
+        </div>
+        <div class="metric-card">
+          <strong>Audit-ready</strong>
+          <p>Structured evidence trails for reporting assurance.</p>
+        </div>
+      </div>
+      <p class="notice">All metrics are ranges based on prior engagements and are not guarantees.</p>
+    </div>
+  </section>
+
+  <section id="case-studies" class="section section-dark">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Case Studies</div>
+        <h2 class="section-title">Real-world wins across industries</h2>
+        <p class="section-lead">Explore how organizations reduce emissions and cost while modernizing sustainability operations.</p>
+      </div>
+      <div class="case-grid">
+        <div class="case-card">
+          <h3>Smart Facility Retrofit</h3>
+          <p>IoT metering and AI control optimized HVAC schedules across 12 buildings.</p>
+          <div class="case-meta">-25% energy, +$180K annual savings</div>
+        </div>
+        <div class="case-card">
+          <h3>Manufacturing Demand Optimization</h3>
+          <p>Predictive scheduling reduced peak demand and stabilized energy spend.</p>
+          <div class="case-meta">-18% energy, 6 month payback</div>
+        </div>
+        <div class="case-card">
+          <h3>Supply Chain Scope 3 Visibility</h3>
+          <p>Supplier engagement automation drove new data capture and reporting compliance.</p>
+          <div class="case-meta">-40% reporting gaps, -$2.3M spend</div>
+        </div>
+      </div>
+      <div class="hero-actions" style="margin-top: 32px;">
+        <a class="btn-eco" href="pages/case-studies.html">View all case studies</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Leadership</div>
+        <h2 class="section-title">Experts in AI, sustainability, and delivery</h2>
+        <p class="section-lead">Our leadership team spans agentic AI, sustainability operations, trust systems, and enterprise delivery across all three offers.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="images/Tonya Jones-Smith.PNG" alt="Tonya Jones-Smith">
+          <h3>Tonya Jones-Smith</h3>
+          <div class="team-role">Advisory Board Member</div>
+          <p>Quality engineering and program leadership across enterprise transformations with a focus on measurable impact.</p>
+        </div>
+        <div class="team-card">
+          <img src="images/NancyPaul.png" alt="Nancy Paul">
+          <h3>Nancy Paul</h3>
+          <div class="team-role">Advisory Board Member</div>
+          <p>Delivery leader specializing in operational excellence, Lean transformation, and scalable enterprise rollouts.</p>
+        </div>
+        <div class="team-card">
+          <img src="images/aisha.jpg" alt="Aisha">
+          <h3>Aisha</h3>
+          <div class="team-role">Co-Founder</div>
+          <p>AI and systems design leader shaping the EcoSustainability Platform and customer success programs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Get Started</div>
+        <h2 class="section-title">Book a strategy session that moves from interest to implementation</h2>
+        <p class="section-lead">Choose a live slot to review your automation roadmap, sustainability priorities, or trust requirements with a delivery-focused conversation.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card contact-card-detail">
+          <div class="badge-row">
+            <span class="tag">Direct access</span>
+            <span class="tag">Response within 2 business days</span>
+          </div>
+          <h3>Talk to a delivery lead, not a generic inbox</h3>
+          <p>Use this path when you want a concrete discussion about scope, priorities, buyers, rollout friction, or where to start across the three offers.</p>
+          <div class="contact-detail-grid">
+            <div class="contact-detail">
+              <span class="contact-detail-label">Location</span>
+              <strong>Vancouver, BC</strong>
+              <small>North America friendly coverage</small>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-label">Phone</span>
+              <strong><a href="tel:+1 604-260-7975">+1 604-260-7975</a></strong>
+              <small>For urgent coordination</small>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-label">Email</span>
+              <strong><a href="mailto:contact@techfistglobal.com">contact@techfistglobal.com</a></strong>
+              <small>Fallback if no slot works</small>
+            </div>
+          </div>
+          <div class="hero-actions contact-actions">
+            <a class="btn-eco-outline" href="mailto:contact@techfistglobal.com">Email Delivery Team</a>
+            <a class="btn-eco-outline" href="tel:+1 604-260-7975">Call Us</a>
+          </div>
+          <p class="notice">Best for enterprise buyers who want a scoped next step, not a generic discovery call.</p>
+        </div>
+        <div class="contact-card booking-card">
+          <div class="badge-row">
+            <span class="tag">Google native booking</span>
+            <span class="tag">Live availability</span>
+            <span class="tag">Invite auto-sent</span>
+          </div>
+          <h3>Reserve a working session in minutes</h3>
+          <p>Book directly into our live calendar and arrive with the right context already in place. This flow is built for speed, clarity, and buyer confidence.</p>
+          <div class="hero-metrics booking-metrics">
+            <div class="metric-tile">
+              <div class="metric-value">30 min</div>
+              <div class="metric-label">focused strategy session</div>
+            </div>
+            <div class="metric-tile">
+              <div class="metric-value">Google Meet</div>
+              <div class="metric-label">calendar invite handled automatically</div>
+            </div>
+            <div class="metric-tile">
+              <div class="metric-value">3 offers</div>
+              <div class="metric-label">AI, Sustainability, Trust</div>
+            </div>
+            <div class="metric-tile">
+              <div class="metric-value">Live</div>
+              <div class="metric-label">availability in your timezone</div>
+            </div>
+          </div>
+          <div class="flow-grid booking-flow">
+            <div class="flow-step">
+              <h4>Choose a slot</h4>
+              <p>See real availability without back-and-forth email coordination.</p>
+            </div>
+            <div class="flow-step">
+              <h4>Add context</h4>
+              <p>Share your priority so the session starts with the right frame.</p>
+            </div>
+            <div class="flow-step">
+              <h4>Get the invite</h4>
+              <p>Google sends the confirmation and calendar event automatically.</p>
+            </div>
+          </div>
+          <div class="hero-actions contact-actions">
+            <a class="btn-eco" href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Open Booking Calendar</a>
+            <a class="btn-eco-outline" href="mailto:contact@techfistglobal.com">Email Us Instead</a>
+          </div>
+          <p class="notice">Google booking opens in a new tab. If no available slot works, email us directly and we will coordinate manually.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="images/tfglogo.png" alt="TechFist Global" style="height: 44px; margin-bottom: 12px;">
+        <p>TechFist Global delivers Agentic AI, Sustainability, and Trust Infrastructure services for automation, reporting, and defensible evidence systems.</p>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <small><a href="pages/agentic-ai.html">Agentic AI Services</a></small><br>
+        <small><a href="pages/platform.html">Sustainability Platform</a></small><br>
+        <small><a href="pages/trust-infrastructure.html">Trust Infrastructure</a></small><br>
+        <small><a href="pages/staffing.html">Technology Consulting</a></small><br>
+        <small><a href="pages/compliance.html">Compliance Automation</a></small><br>
+        <small><a href="pages/case-studies.html">Case Studies</a></small>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <small><a href="https://calendar.app.google/YKzYcc1ncdiGsNpD9" target="_blank" rel="noopener noreferrer">Book Assessment</a></small><br>
+        <small><a href="mailto:contact@techfistglobal.com">contact@techfistglobal.com</a></small>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 24px;">
+      <small>&copy; 2025 TechFist Global Inc. All rights reserved.</small>
     </div>
   </footer>
 
-  <!-- Footer Section End -->
-
-  <!-- Go To Top Link -->
-  <a href="#" class="home2-scroll back-to-top">
-    <i class="lni-chevron-up"></i>
-  </a>
-
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader" id="loader-1"></div>
-  </div>
-  <!-- End Preloader -->
-
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script data-cfasync="false" src="js/email-decode.min.js"></script>
   <script src="js/jquery-min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/jquery.nav.js"></script>
-  <script src="js/scrolling-nav.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/nivo-lightbox.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/form-validator.min.js"></script>
-  <script src="js/contact-form-script.js"></script>
-  <script src="js/main.js"></script>
-
-  <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'963a0c567d24feb1',t:'MTc1MzI2MTg2My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
-  <script>
-    // Add dynamic particle generation
-    function createParticles() {
-      const particlesContainer = document.querySelector('.particles');
-
-      for (let i = 0; i < 20; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.top = Math.random() * 100 + '%';
-        particle.style.animationDelay = Math.random() * 8 + 's';
-        particle.style.animationDuration = (Math.random() * 5 + 3) + 's';
-        particlesContainer.appendChild(particle);
-      }
-    }
-
-    // Initialize particles on load
-    window.addEventListener('load', createParticles);
-
-    // Add interactive hover effects
-    const techNodes = document.querySelectorAll('.tech-node');
-    techNodes.forEach(node => {
-      node.addEventListener('mouseenter', function () {
-        this.style.transform += ' scale(1.3)';
-        this.style.boxShadow = '0 0 40px rgba(255, 255, 255, 0.8)';
-      });
-
-      node.addEventListener('mouseleave', function () {
-        this.style.transform = this.style.transform.replace(' scale(1.3)', '');
-        this.style.boxShadow = '0 0 20px rgba(255, 255, 255, 0.3)';
-      });
-    });
-
-    // Add parallax effect on mouse move
-    document.addEventListener('mousemove', function (e) {
-      const mouseX = e.clientX / window.innerWidth;
-      const mouseY = e.clientY / window.innerHeight;
-
-      const floatingElements = document.querySelectorAll('.floating-element');
-      floatingElements.forEach((element, index) => {
-        const speed = (index + 1) * 0.5;
-        const x = (mouseX - 0.5) * speed * 50;
-        const y = (mouseY - 0.5) * speed * 50;
-        element.style.transform = `translate(${x}px, ${y}px)`;
-      });
-    });
-  </script>
-  <script>
-        function toggleDescription(descId, button) {
-            const description = document.getElementById(descId);
-            const isCollapsed = description.classList.contains('collapsed');
-            
-            if (isCollapsed) {
-                description.classList.remove('collapsed');
-                button.textContent = 'Read Less';
-            } else {
-                description.classList.add('collapsed');
-                button.textContent = 'Read More';
-            }
-        }
-    </script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-(function() {
-    emailjs.init("lDnSQ-TKgDWIjoLtu"); // Your EmailJS Public Key
-})();
-
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    let msgSubmit = document.getElementById("msgSubmit");
-    msgSubmit.classList.remove("hidden");
-    msgSubmit.style.color = "#000";
-    msgSubmit.innerHTML = "Sending...";
-
-    emailjs.sendForm("service_xsug0wk", "template_jm8rjm8", "#contactForm")
-    .then(() => {
-        showSuccess();
-    }, (error) => {
-        showError(error);
-    });
-});
-
-function showSuccess() {
-    let msgSubmit = document.getElementById("msgSubmit");
-    msgSubmit.style.color = "green";
-    msgSubmit.innerHTML = "Message sent successfully!";
-    document.getElementById("contactForm").reset();
-}
-
-function showError(err) {
-    console.error(err);
-    let msgSubmit = document.getElementById("msgSubmit");
-    msgSubmit.style.color = "red";
-    msgSubmit.innerHTML = "Failed to send. Try again.";
-}
-</script>
-
-
+  <script src="js/eco-interactions.js"></script>
 </body>
-
 </html>

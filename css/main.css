@@ -357,9 +357,9 @@ button:focus {
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
-  background: #5533ff;
-  background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
-  box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+  background: #1E8E3E;
+  background: linear-gradient(95deg, #1E8E3E 40%, #3ecf8e 100%);
+  box-shadow: 0px 8px 9px 0px rgba(62, 207, 142, 0.12);
   z-index: 9999999; }
 
 .back-to-top i {
@@ -378,9 +378,9 @@ button:focus {
   color: #fff; }
 
 .menu-bg {
-  background: #3023ae;
-  background: linear-gradient(95deg, #3023ae 40%, #c86dd7 100%) !important;
-  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
+  background: #1E8E3E;
+  background: linear-gradient(95deg, #1E8E3E 40%, #3ecf8e 100%) !important;
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.05);
   z-index: 9999;
   padding: 5px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -463,9 +463,9 @@ button:focus {
    Navigation  section
    ========================================================================== */
 .hero-area2 .menu-bg {
-  background: #3023ae;
-  background: linear-gradient(95deg, #3023ae 40%, #c86dd7 100%) !important;
-  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
+  background: #1E8E3E;
+  background: linear-gradient(95deg, #1E8E3E 40%, #3ecf8e 100%) !important;
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.05);
   z-index: 9999;
   padding: 5px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -474,8 +474,8 @@ button:focus {
 .hero-area2 {
   position: relative; }
   .hero-area2 .overlay-light {
-    background: #3023ae;
-    background: linear-gradient(95deg, #3023ae 40%, #c86dd7 100%) !important;
+    background: #1E8E3E;
+    background: linear-gradient(95deg, #1E8E3E 40%, #3ecf8e 100%) !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1336,5 +1336,5 @@ button:focus {
     padding-left: 35px; }
 
 .home2-scroll {
-  background: #3023ae;
-  background: linear-gradient(95deg, #3023ae 40%, #c86dd7 100%) !important; }
+  background: #1E8E3E;
+  background: linear-gradient(95deg, #1E8E3E 40%, #3ecf8e 100%) !important; }

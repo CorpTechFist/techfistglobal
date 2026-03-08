@@ -1,0 +1,13 @@
+{
+  "name": "techfistglobal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for Techfist Global",
+  "scripts": {
+    "dev": "http-server . -p 5173 -c-1",
+    "start": "http-server . -p 5173 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
